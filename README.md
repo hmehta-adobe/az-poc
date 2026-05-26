@@ -2,9 +2,9 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/
-- Block Library: https://main--{repo}--{owner}.aem.page/tools/sidekick/library.html?plugin=blocks
+- Preview: https://main--az-poc--hmehta-adobe.aem.page/
+- Live: https://main--az-poc--hmehta-adobe.aem.live/
+- Block Library: https://main--az-poc--hmehta-adobe.aem.page/tools/sidekick/library.html?plugin=blocks
 
 ## Documentation
 
