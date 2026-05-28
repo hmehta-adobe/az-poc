@@ -1,7 +1,6 @@
 {
   "mappings": [
     { "targetPath": "/info", "sourceUrl": "https://azhealthclub-info.com.hk", "rationale": "Patient program portal home." },
-    { "targetPath": "/info", "sourceUrl": "https://azhealthclub-info.com.hk/home", "rationale": "Alias of source root — same target as / on info portal." },
     { "targetPath": "/info/about-us.html", "sourceUrl": "https://azhealthclub-info.com.hk/about-us" },
     { "targetPath": "/info/patient-services", "sourceUrl": "https://azhealthclub-info.com.hk/Patient-Program" },
     { "targetPath": "/info/patient-services/pharmacy-locator.html", "sourceUrl": "https://azhealthclub-info.com.hk/Patient-Program/Stores" },
@@ -13,6 +12,7 @@
     { "targetPath": "/info/patient-services/how-to-participate/instant.html", "sourceUrl": "https://azhealthclub-info.com.hk/how-to-participate/instant" },
     { "targetPath": "/info/patient-services/how-to-participate/hasfi.html", "sourceUrl": "https://azhealthclub-info.com.hk/how-to-participate/hasfi" },
     { "targetPath": "/info/patient-services/saving-scheme.html", "sourceUrl": "https://azhealthclub-info.com.hk/list" },
+    { "targetPath": "/info/patient-services/saving-scheme.html", "sourceUrl": "https://azhealthclub-info.com.hk/home", "rationale": "Redirect alias — /home redirects to /list, same target." },
     { "targetPath": "/info/lung-cancer/patient-assistance.html", "sourceUrl": "https://azhealthclub-info.com.hk/PAP/LCPAP" },
     { "targetPath": "/info/breast-cancer/patient-assistance.html", "sourceUrl": "https://azhealthclub-info.com.hk/PAP/BCPAP" },
     { "targetPath": "/info/ovarian-cancer/patient-assistance.html", "sourceUrl": "https://azhealthclub-info.com.hk/PAP/OCPAP" },
@@ -44,7 +44,7 @@
     { "targetPath": "/forxiga/tc/terms-and-conditions.html", "sourceUrl": "https://www.forxiga.com.hk/tc/terms.html" },
     { "targetPath": "/forxiga/tc/xigduo.html", "sourceUrl": "https://www.forxiga.com.hk/tc/xigduo.html" },
 
-    { "targetPath": "/forxiga/sc/", "sourceUrl": "https://www.forxiga.com.hk/sc/index.html", "rationale": "Forxiga SC locale home." },
+    { "targetPath": "/forxiga/sc", "sourceUrl": "https://www.forxiga.com.hk/sc/index.html", "rationale": "Forxiga SC locale home." },
     { "targetPath": "/forxiga/sc/about.html", "sourceUrl": "https://www.forxiga.com.hk/sc/about.html" },
     { "targetPath": "/forxiga/sc/dosing-method.html", "sourceUrl": "https://www.forxiga.com.hk/sc/dosing_method.html" },
     { "targetPath": "/forxiga/sc/patient-registration.html", "sourceUrl": "https://www.forxiga.com.hk/sc/form.html" },
@@ -144,9 +144,9 @@
     { "targetPath": "/lung-cancer/patient-assistance/post-1.html", "sourceUrl": "https://azhealthclub.com.hk/drugs/first-post/" }
   ],
   "highImpactGaps": [
-    "Source-URL aliases: 4 source URLs are duplicate aliases that collapse to the same target (azhealthclub-info.com.hk root vs /home → /info; /Patient-Program/Stores vs /patient-program/stores → /info/patient-services/pharmacy-locator.html; crestor.com.hk/ vs /index.html → /crestor). Pick one canonical source per target before running the import.",
+    "Source-URL aliases: 2 source URLs remain as duplicate aliases that collapse to the same target (/Patient-Program/Stores vs /patient-program/stores → /info/patient-services/pharmacy-locator.html; crestor.com.hk/ vs /index.html → /crestor). Pick one canonical source per target before running the import.",
+    "Redirect alias: https://azhealthclub-info.com.hk/home redirects to /list (confirmed) — both are mapped to /info/patient-services/saving-scheme.html. Use /list as the canonical source during import.",
     "Slug correction: source uses misspelled 'cardiovascualr' across multiple URLs; target uses 'cardiovascular'. Confirm the rewrite is intentional before importing.",
-    "Trailing slash: target /forxiga/sc/ retains a trailing slash (per user input) while /forxiga/tc does not. Confirm whether to normalise to a consistent shape.",
     "Locale set matches: source provides {tc, sc}, target requires {tc, sc} — no translation gap. Only Forxiga has /sc; all other content stays in /tc."
   ]
 }

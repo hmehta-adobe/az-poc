@@ -28,7 +28,7 @@
   ],
   "pages": [
     { "url": "https://azhealthclub-info.com.hk", "sourceSite": "azhealthclub-info", "role": "portal-home", "locale": "tc", "status": "in-scope" },
-    { "url": "https://azhealthclub-info.com.hk/home", "sourceSite": "azhealthclub-info", "role": "portal-home", "locale": "tc", "status": "in-scope", "notes": "Alias of root — same target as / ." },
+    { "url": "https://azhealthclub-info.com.hk/home", "sourceSite": "azhealthclub-info", "role": "saving-scheme", "locale": "tc", "status": "in-scope", "notes": "Redirect alias — /home redirects to /list (confirmed). Use /list as canonical source." },
     { "url": "https://azhealthclub-info.com.hk/about-us", "sourceSite": "azhealthclub-info", "role": "about", "locale": "tc", "status": "in-scope" },
     { "url": "https://azhealthclub-info.com.hk/Patient-Program", "sourceSite": "azhealthclub-info", "role": "patient-services-index", "locale": "tc", "status": "in-scope" },
     { "url": "https://azhealthclub-info.com.hk/Patient-Program/Stores", "sourceSite": "azhealthclub-info", "role": "pharmacy-locator", "locale": "tc", "status": "in-scope" },
@@ -39,7 +39,7 @@
     { "url": "https://azhealthclub-info.com.hk/how-to-participate", "sourceSite": "azhealthclub-info", "role": "how-to-participate", "locale": "tc", "status": "in-scope" },
     { "url": "https://azhealthclub-info.com.hk/how-to-participate/instant", "sourceSite": "azhealthclub-info", "role": "how-to-participate-instant", "locale": "tc", "status": "in-scope" },
     { "url": "https://azhealthclub-info.com.hk/how-to-participate/hasfi", "sourceSite": "azhealthclub-info", "role": "how-to-participate-hasfi", "locale": "tc", "status": "in-scope" },
-    { "url": "https://azhealthclub-info.com.hk/list", "sourceSite": "azhealthclub-info", "role": "saving-scheme", "locale": "tc", "status": "in-scope" },
+    { "url": "https://azhealthclub-info.com.hk/list", "sourceSite": "azhealthclub-info", "role": "saving-scheme", "locale": "tc", "status": "in-scope", "notes": "Canonical URL for Saving Scheme; /home is a redirect alias pointing here." },
     { "url": "https://azhealthclub-info.com.hk/PAP/LCPAP", "sourceSite": "azhealthclub-info", "role": "pap-lung-cancer", "locale": "tc", "status": "in-scope" },
     { "url": "https://azhealthclub-info.com.hk/PAP/BCPAP", "sourceSite": "azhealthclub-info", "role": "pap-breast-cancer", "locale": "tc", "status": "in-scope" },
     { "url": "https://azhealthclub-info.com.hk/PAP/OCPAP", "sourceSite": "azhealthclub-info", "role": "pap-ovarian-cancer", "locale": "tc", "status": "in-scope" },
