@@ -1,0 +1,89 @@
+@import url('./alert-az-tokens.css');
+
+.alert-az {
+  max-width: var(--alert-az-max-width);
+  margin: 0 auto;
+}
+
+.alert-az .alert-container {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--alert-az-gap);
+  padding: var(--alert-az-padding);
+  border-radius: var(--alert-az-border-radius);
+  background: var(--alert-az-info-bg);
+  border: var(--alert-az-info-border);
+  color: var(--alert-az-info-color);
+  font-family: var(--alert-az-font-family);
+  font-size: var(--alert-az-font-size);
+  line-height: var(--alert-az-line-height);
+}
+
+.alert-az .alert-icon {
+  flex-shrink: 0;
+  width: var(--alert-az-icon-size);
+  height: var(--alert-az-icon-size);
+  color: var(--alert-az-info-icon-color);
+}
+
+.alert-az .alert-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.alert-az .alert-content {
+  flex: 1;
+}
+
+.alert-az .alert-content p {
+  margin: 0;
+}
+
+.alert-az .alert-close {
+  flex-shrink: 0;
+  width: var(--alert-az-close-size);
+  height: var(--alert-az-close-size);
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+  padding: 0;
+}
+
+.alert-az .alert-close svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Success variant */
+.alert-az.success .alert-container {
+  background: var(--alert-az-success-bg);
+  border: var(--alert-az-success-border);
+  color: var(--alert-az-success-color);
+}
+
+.alert-az.success .alert-icon {
+  color: var(--alert-az-success-icon-color);
+}
+
+/* Warning variant */
+.alert-az.warning .alert-container {
+  background: var(--alert-az-warning-bg);
+  border: var(--alert-az-warning-border);
+  color: var(--alert-az-warning-color);
+}
+
+.alert-az.warning .alert-icon {
+  color: var(--alert-az-warning-icon-color);
+}
+
+/* Error variant */
+.alert-az.error .alert-container {
+  background: var(--alert-az-error-bg);
+  border: var(--alert-az-error-border);
+  color: var(--alert-az-error-color);
+}
+
+.alert-az.error .alert-icon {
+  color: var(--alert-az-error-icon-color);
+}

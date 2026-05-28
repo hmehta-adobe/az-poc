@@ -1,0 +1,44 @@
+@import url('./breadcrumb-az-tokens.css');
+
+.breadcrumb-az {
+  max-width: var(--breadcrumb-az-max-width);
+  margin: 0 auto;
+  padding: var(--breadcrumb-az-padding);
+}
+
+.breadcrumb-az nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--breadcrumb-az-gap);
+  font-family: var(--breadcrumb-az-font-family);
+  font-size: var(--breadcrumb-az-font-size);
+  line-height: var(--breadcrumb-az-line-height);
+}
+
+.breadcrumb-az nav a {
+  color: var(--breadcrumb-az-link-color);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.breadcrumb-az nav a:hover {
+  color: var(--breadcrumb-az-link-hover-color);
+  text-decoration: underline;
+}
+
+.breadcrumb-az nav .breadcrumb-separator {
+  color: var(--breadcrumb-az-separator-color);
+  display: inline-flex;
+  align-items: center;
+}
+
+.breadcrumb-az nav .breadcrumb-separator svg {
+  width: var(--breadcrumb-az-separator-size);
+  height: var(--breadcrumb-az-separator-size);
+}
+
+.breadcrumb-az nav .breadcrumb-current {
+  color: var(--breadcrumb-az-current-color);
+  font-weight: 400;
+}

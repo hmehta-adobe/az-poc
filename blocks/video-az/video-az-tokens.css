@@ -1,0 +1,15 @@
+.video-az {
+  --video-az-max-width: 1180px;
+  --video-az-aspect-ratio: 16 / 9;
+  --video-az-border-radius: 0;
+  --video-az-play-size: 72px;
+  --video-az-play-bg: rgb(208 0 111 / 90%);
+  --video-az-play-color: #fff;
+  --video-az-play-border-radius: 50%;
+  --video-az-overlay-bg: rgb(60 66 66 / 30%);
+  --video-az-caption-font-family: 'Inter', sans-serif;
+  --video-az-caption-font-size: 14px;
+  --video-az-caption-line-height: 20px;
+  --video-az-caption-color: #656969;
+  --video-az-caption-padding: 12px 0;
+}
