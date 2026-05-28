@@ -1,0 +1,38 @@
+.hero-az-branded {
+  /* ===== CONTAINER ===== */
+  --hero-az-branded-height: 428px;
+  --hero-az-branded-background: #ebefee;
+  --hero-az-branded-max-width: 1180px;
+  --hero-az-branded-gap: 32px;
+  --hero-az-branded-padding: 0;
+
+  /* ===== HEADING ===== */
+  --hero-az-branded-heading-font-family: 'Lexia', serif;
+  --hero-az-branded-heading-font-size: 56px;
+  --hero-az-branded-heading-font-weight: 400;
+  --hero-az-branded-heading-line-height: 60px;
+  --hero-az-branded-heading-color: #830051;
+
+  /* ===== BODY ===== */
+  --hero-az-branded-body-font-family: 'Inter', sans-serif;
+  --hero-az-branded-body-font-size: 18px;
+  --hero-az-branded-body-font-weight: 400;
+  --hero-az-branded-body-line-height: 28px;
+  --hero-az-branded-body-color: #3c4242;
+
+  /* ===== BUTTON ===== */
+  --hero-az-branded-btn-height: 42px;
+  --hero-az-branded-btn-padding: 0 16px;
+  --hero-az-branded-btn-border-radius: 4px;
+  --hero-az-branded-btn-background: #d0006f;
+  --hero-az-branded-btn-border: 1px solid #d0006f;
+  --hero-az-branded-btn-color: #fff;
+  --hero-az-branded-btn-font-weight: 700;
+
+  /* ===== CONTENT GAP ===== */
+  --hero-az-branded-content-gap: 16px;
+  --hero-az-branded-logo-padding: 32px 0;
+
+  /* ===== IMAGE ===== */
+  --hero-az-branded-image-width: 574px;
+}

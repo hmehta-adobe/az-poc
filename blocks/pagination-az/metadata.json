@@ -1,0 +1,24 @@
+{
+  "variantName": "pagination-az",
+  "blockType": "pagination",
+  "source": "figma",
+  "figmaNodeId": "12328:9613",
+  "figmaFileKey": "GcRd4HGw2IXFBB02O7McBy",
+  "characteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "navigation",
+    "imagePattern": "noimg",
+    "contentPattern": {
+      "structure": "page-numbers-nav-arrows",
+      "buttonCount": 0,
+      "imageCount": 0
+    }
+  },
+  "variants": ["icon-only", "icon-text"],
+  "usage": {
+    "pagesUsing": ["pagination-demo"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T10:30:00.000Z"
+  }
+}

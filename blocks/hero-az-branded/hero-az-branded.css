@@ -1,0 +1,130 @@
+@import url('./hero-az-branded-tokens.css');
+
+.hero-az-branded {
+  background: var(--hero-az-branded-background);
+  min-height: var(--hero-az-branded-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-az-branded .hero-branded-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--hero-az-branded-gap);
+  max-width: var(--hero-az-branded-max-width);
+  width: 100%;
+  height: 100%;
+  min-height: var(--hero-az-branded-height);
+}
+
+.hero-az-branded .hero-branded-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-az-branded .hero-branded-logo {
+  padding: var(--hero-az-branded-logo-padding);
+}
+
+.hero-az-branded .hero-branded-logo img {
+  height: 52px;
+  width: auto;
+}
+
+.hero-az-branded .hero-branded-text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--hero-az-branded-content-gap);
+}
+
+.hero-az-branded .hero-branded-text h2,
+.hero-az-branded .hero-branded-text h3 {
+  font-family: var(--hero-az-branded-heading-font-family);
+  font-size: var(--hero-az-branded-heading-font-size);
+  font-weight: var(--hero-az-branded-heading-font-weight);
+  line-height: var(--hero-az-branded-heading-line-height);
+  color: var(--hero-az-branded-heading-color);
+  margin: 0;
+}
+
+.hero-az-branded .hero-branded-text p {
+  font-family: var(--hero-az-branded-body-font-family);
+  font-size: var(--hero-az-branded-body-font-size);
+  font-weight: var(--hero-az-branded-body-font-weight);
+  line-height: var(--hero-az-branded-body-line-height);
+  color: var(--hero-az-branded-body-color);
+  margin: 0;
+}
+
+.hero-az-branded .hero-branded-text a.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: var(--hero-az-branded-btn-height);
+  padding: var(--hero-az-branded-btn-padding);
+  border-radius: var(--hero-az-branded-btn-border-radius);
+  background: var(--hero-az-branded-btn-background);
+  border: var(--hero-az-branded-btn-border);
+  color: var(--hero-az-branded-btn-color);
+  font-weight: var(--hero-az-branded-btn-font-weight);
+  text-decoration: none;
+}
+
+.hero-az-branded .hero-branded-image {
+  width: var(--hero-az-branded-image-width);
+  height: 100%;
+  min-height: var(--hero-az-branded-height);
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.hero-az-branded .hero-branded-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Tablet */
+@media (width <= 899px) {
+  .hero-az-branded .hero-branded-inner {
+    padding: 0 32px;
+  }
+
+  .hero-az-branded .hero-branded-image {
+    width: 50%;
+  }
+}
+
+/* Mobile */
+@media (width <= 599px) {
+  .hero-az-branded {
+    min-height: auto;
+  }
+
+  .hero-az-branded .hero-branded-inner {
+    flex-direction: column-reverse;
+    padding: 0;
+    min-height: auto;
+  }
+
+  .hero-az-branded .hero-branded-image {
+    width: 100%;
+    height: 280px;
+    min-height: 280px;
+  }
+
+  .hero-az-branded .hero-branded-content {
+    padding: 0 16px 24px;
+  }
+
+  .hero-az-branded .hero-branded-text h2,
+  .hero-az-branded .hero-branded-text h3 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}

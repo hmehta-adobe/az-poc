@@ -1,0 +1,24 @@
+.hero-az-fullimage {
+  --hero-az-fullimage-height: 480px;
+  --hero-az-fullimage-height-md: 390px;
+  --hero-az-fullimage-height-sm: 270px;
+  --hero-az-fullimage-max-width: 1180px;
+  --hero-az-fullimage-overlay-color: rgb(60 66 66 / 75%);
+  --hero-az-fullimage-title-font-family: 'Lexia', serif;
+  --hero-az-fullimage-title-font-size: 36px;
+  --hero-az-fullimage-title-line-height: 40px;
+  --hero-az-fullimage-title-font-size-desktop: 56px;
+  --hero-az-fullimage-title-line-height-desktop: 60px;
+  --hero-az-fullimage-title-color: #fff;
+  --hero-az-fullimage-body-font-family: 'Inter', sans-serif;
+  --hero-az-fullimage-body-font-size: 18px;
+  --hero-az-fullimage-body-line-height: 28px;
+  --hero-az-fullimage-body-color: #fff;
+  --hero-az-fullimage-content-padding-x: 20px;
+  --hero-az-fullimage-btn-bg: #d0006f;
+  --hero-az-fullimage-btn-color: #fff;
+  --hero-az-fullimage-btn-font-family: 'Inter', sans-serif;
+  --hero-az-fullimage-btn-font-size: 16px;
+  --hero-az-fullimage-btn-padding: 12px 24px;
+  --hero-az-fullimage-btn-radius: 4px;
+}

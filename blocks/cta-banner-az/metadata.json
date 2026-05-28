@@ -1,0 +1,23 @@
+{
+  "variantName": "cta-banner-az",
+  "blockType": "cta-banner",
+  "source": "figma",
+  "figmaNodeId": "13370:2159",
+  "figmaFileKey": "GcRd4HGw2IXFBB02O7McBy",
+  "characteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "call-to-action",
+    "imagePattern": "icon",
+    "contentPattern": {
+      "structure": "image-title-body-input-buttons-footer",
+      "buttonCount": 3,
+      "imageCount": 1
+    }
+  },
+  "usage": {
+    "pagesUsing": ["cta-banner-demo"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T14:00:00.000Z"
+  }
+}

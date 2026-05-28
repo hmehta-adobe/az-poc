@@ -1,0 +1,24 @@
+.social-az {
+  /* ===== LAYOUT ===== */
+  --social-az-max-width: 1180px;
+  --social-az-height: 42px;
+  --social-az-gap: 40px;
+
+  /* ===== TEXT ===== */
+  --social-az-font-family: 'Lexia', serif;
+  --social-az-font-size: 24px;
+  --social-az-font-weight: 400;
+  --social-az-line-height: 28px;
+  --social-az-color: #3c4242;
+
+  /* ===== ICONS ===== */
+  --social-az-icon-size: 20px;
+  --social-az-icon-color: #d0006f;
+  --social-az-icon-gap: 4px;
+  --social-az-btn-size: 42px;
+  --social-az-btn-border-radius: 4px;
+  --social-az-btn-hover-bg: rgb(208 0 111 / 8%);
+
+  /* ===== TRANSITIONS ===== */
+  --social-az-transition: 0.2s ease;
+}

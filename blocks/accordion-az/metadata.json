@@ -1,0 +1,23 @@
+{
+  "variantName": "accordion-az",
+  "blockType": "accordion",
+  "source": "figma",
+  "figmaNodeId": "12473:15780",
+  "figmaFileKey": "GcRd4HGw2IXFBB02O7McBy",
+  "characteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "faq",
+    "imagePattern": "noimg",
+    "contentPattern": {
+      "structure": "title-body-expandable",
+      "buttonCount": 0,
+      "imageCount": 0
+    }
+  },
+  "usage": {
+    "pagesUsing": ["accordion-demo"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T09:17:00.000Z"
+  }
+}

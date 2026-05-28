@@ -1,0 +1,6 @@
+{
+  "name": "Cards AZ Listing",
+  "description": "Horizontal listing card with image on the left and text content on the right. Stacks vertically on mobile.",
+  "group": "cards",
+  "status": "active"
+}

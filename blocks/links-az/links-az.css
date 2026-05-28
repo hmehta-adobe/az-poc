@@ -1,0 +1,42 @@
+@import url('./links-az-tokens.css');
+
+.links-az {
+  max-width: var(--links-az-max-width);
+  margin: 0 auto;
+  border-left: var(--links-az-border-left);
+}
+
+.links-az ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links-az li {
+  display: flex;
+  align-items: center;
+  min-height: var(--links-az-item-height);
+  padding: var(--links-az-item-padding);
+}
+
+.links-az li a {
+  font-family: var(--links-az-parent-font-family);
+  font-size: var(--links-az-parent-font-size);
+  font-weight: var(--links-az-parent-font-weight);
+  line-height: var(--links-az-parent-line-height);
+  color: var(--links-az-parent-color);
+  text-decoration: none;
+  transition: opacity var(--links-az-transition);
+}
+
+.links-az li a:hover {
+  opacity: var(--links-az-hover-opacity);
+}
+
+.links-az li.child a {
+  color: var(--links-az-child-color);
+}
+
+.links-az li.child a::before {
+  content: var(--links-az-child-prefix);
+}

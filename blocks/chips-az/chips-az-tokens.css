@@ -1,0 +1,46 @@
+.chips-az {
+  /* ===== LAYOUT ===== */
+  --chips-az-gap: 12px;
+  --chips-az-padding: 0;
+
+  /* ===== CHIP COMMON ===== */
+  --chips-az-border-radius: 9999px;
+  --chips-az-font-family: 'Inter', sans-serif;
+  --chips-az-font-weight: 400;
+  --chips-az-font-style: normal;
+  --chips-az-transition: background-color 0.2s ease, border-color 0.2s ease;
+
+  /* ===== CHIP SMALL ===== */
+  --chips-az-sm-height: 20px;
+  --chips-az-sm-padding: 0 4px;
+  --chips-az-sm-gap: 4px;
+  --chips-az-sm-font-size: 12px;
+  --chips-az-sm-line-height: 16px;
+  --chips-az-sm-icon-size: 12px;
+
+  /* ===== CHIP LARGE ===== */
+  --chips-az-lg-height: 28px;
+  --chips-az-lg-padding: 0 8px;
+  --chips-az-lg-gap: 8px;
+  --chips-az-lg-font-size: 16px;
+  --chips-az-lg-line-height: 24px;
+  --chips-az-lg-icon-size: 16px;
+
+  /* ===== STATE: DARK (default) ===== */
+  --chips-az-dark-bg: #830051;
+  --chips-az-dark-border: 1px solid #830051;
+  --chips-az-dark-color: #fff;
+  --chips-az-dark-icon-color: #fff;
+
+  /* ===== STATE: LIGHT ===== */
+  --chips-az-light-bg: #fff;
+  --chips-az-light-border: 1px solid #d8dada;
+  --chips-az-light-color: #3c4242;
+  --chips-az-light-icon-color: #3c4242;
+
+  /* ===== STATE: ACTIVE ===== */
+  --chips-az-active-bg: #d0006f;
+  --chips-az-active-border: 1px solid #d0006f;
+  --chips-az-active-color: #fff;
+  --chips-az-active-icon-color: #fff;
+}

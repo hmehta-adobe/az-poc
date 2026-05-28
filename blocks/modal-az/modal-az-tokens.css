@@ -1,0 +1,78 @@
+.modal-az {
+  /* ===== CONTAINER ===== */
+  --modal-az-max-width: 568px;
+  --modal-az-padding: 24px;
+  --modal-az-gap: 24px;
+  --modal-az-border-radius: 12px;
+  --modal-az-border: 1px solid #d8dada;
+  --modal-az-background: #fff;
+  --modal-az-shadow: 0 4px 24px rgb(0 0 0 / 15%);
+
+  /* ===== BACKDROP ===== */
+  --modal-az-backdrop: rgb(60 66 66 / 70%);
+
+  /* ===== CLOSE BUTTON ===== */
+  --modal-az-close-size: 42px;
+  --modal-az-close-border-radius: 4px;
+  --modal-az-close-color: #3c4242;
+
+  /* ===== HEADING ===== */
+  --modal-az-heading-font-family: 'Lexia', serif;
+  --modal-az-heading-font-size: 26px;
+  --modal-az-heading-font-weight: 400;
+  --modal-az-heading-line-height: 34px;
+  --modal-az-heading-color: #830051;
+
+  /* ===== BODY ===== */
+  --modal-az-body-font-family: 'Inter', sans-serif;
+  --modal-az-body-font-size: 16px;
+  --modal-az-body-font-weight: 400;
+  --modal-az-body-line-height: 24px;
+  --modal-az-body-color: #3c4242;
+
+  /* ===== BUTTONS ===== */
+  --modal-az-btn-font-family: 'Inter', sans-serif;
+  --modal-az-btn-font-size: 16px;
+  --modal-az-btn-font-weight: 700;
+  --modal-az-btn-line-height: 24px;
+  --modal-az-btn-height: 42px;
+  --modal-az-btn-border-radius: 4px;
+  --modal-az-btn-padding: 0 16px;
+  --modal-az-btn-gap: 10px;
+
+  /* Button: Primary */
+  --modal-az-btn-primary-bg: #d0006f;
+  --modal-az-btn-primary-border: 1px solid #d0006f;
+  --modal-az-btn-primary-color: #fff;
+
+  /* Button: Secondary */
+  --modal-az-btn-secondary-bg: #fff;
+  --modal-az-btn-secondary-border: 1px solid #d0006f;
+  --modal-az-btn-secondary-color: #d0006f;
+
+  /* Button: Tertiary */
+  --modal-az-btn-tertiary-bg: transparent;
+  --modal-az-btn-tertiary-border: none;
+  --modal-az-btn-tertiary-color: #3c4242;
+
+  /* ===== IMAGE ===== */
+  --modal-az-image-width: 190px;
+  --modal-az-image-height: 248px;
+  --modal-az-image-border-radius: 0;
+
+  /* ===== SLOT IMAGE ===== */
+  --modal-az-slot-image-height: 200px;
+
+  /* ===== NAV ARROWS ===== */
+  --modal-az-nav-size: 32px;
+  --modal-az-nav-border: 1px solid #d8dada;
+  --modal-az-nav-border-radius: 50%;
+  --modal-az-nav-color: #3c4242;
+  --modal-az-nav-gap: 12px;
+
+  /* ===== CONTENT GAP ===== */
+  --modal-az-content-gap: 8px;
+
+  /* ===== TRANSITIONS ===== */
+  --modal-az-transition: 0.3s ease;
+}

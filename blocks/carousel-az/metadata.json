@@ -1,0 +1,23 @@
+{
+  "variantName": "carousel-az",
+  "blockType": "carousel",
+  "source": "figma",
+  "figmaNodeId": "12473:16100",
+  "figmaFileKey": "GcRd4HGw2IXFBB02O7McBy",
+  "characteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "showcase",
+    "imagePattern": "large",
+    "contentPattern": {
+      "structure": "image-text-cta-horizontal",
+      "buttonCount": 1,
+      "imageCount": 1
+    }
+  },
+  "usage": {
+    "pagesUsing": ["carousel-demo"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T09:25:00.000Z"
+  }
+}

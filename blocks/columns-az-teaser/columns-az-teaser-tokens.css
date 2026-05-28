@@ -1,0 +1,20 @@
+.columns-az-teaser {
+  --columns-az-teaser-max-width: 1180px;
+  --columns-az-teaser-gap: 32px;
+  --columns-az-teaser-image-width: 574px;
+  --columns-az-teaser-image-height: 324px;
+  --columns-az-teaser-title-font-family: 'Lexia', serif;
+  --columns-az-teaser-title-font-size: 26px;
+  --columns-az-teaser-title-line-height: 34px;
+  --columns-az-teaser-title-color: #830051;
+  --columns-az-teaser-body-font-family: 'Inter', sans-serif;
+  --columns-az-teaser-body-font-size: 18px;
+  --columns-az-teaser-body-line-height: 28px;
+  --columns-az-teaser-body-color: #3c4242;
+  --columns-az-teaser-btn-bg: #d0006f;
+  --columns-az-teaser-btn-color: #fff;
+  --columns-az-teaser-btn-font-family: 'Inter', sans-serif;
+  --columns-az-teaser-btn-font-size: 16px;
+  --columns-az-teaser-btn-padding: 12px 24px;
+  --columns-az-teaser-btn-radius: 4px;
+}

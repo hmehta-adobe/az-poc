@@ -1,0 +1,64 @@
+@import url('./social-az-tokens.css');
+
+.social-az {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--social-az-max-width);
+  margin: 0 auto;
+  min-height: var(--social-az-height);
+  gap: var(--social-az-gap);
+}
+
+.social-az .social-az-date {
+  font-family: var(--social-az-font-family);
+  font-size: var(--social-az-font-size);
+  font-weight: var(--social-az-font-weight);
+  line-height: var(--social-az-line-height);
+  color: var(--social-az-color);
+  flex: 1;
+}
+
+.social-az .social-az-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--social-az-icon-gap);
+}
+
+.social-az .social-az-actions button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--social-az-btn-size);
+  height: var(--social-az-btn-size);
+  border: none;
+  background: transparent;
+  border-radius: var(--social-az-btn-border-radius);
+  color: var(--social-az-icon-color);
+  cursor: pointer;
+  padding: 0;
+  transition: background-color var(--social-az-transition);
+}
+
+.social-az .social-az-actions button:hover {
+  background: var(--social-az-btn-hover-bg);
+}
+
+.social-az .social-az-actions button svg {
+  width: var(--social-az-icon-size);
+  height: var(--social-az-icon-size);
+  stroke: currentcolor;
+  fill: none;
+  stroke-width: 1.5;
+}
+
+@media (width <= 599px) {
+  .social-az {
+    gap: 16px;
+  }
+
+  .social-az .social-az-date {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

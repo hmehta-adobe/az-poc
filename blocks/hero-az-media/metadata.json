@@ -1,0 +1,6 @@
+{
+  "name": "Hero AZ Media",
+  "description": "Full-width media block for images or videos with optional play button overlay. 600px height on desktop, auto on mobile.",
+  "group": "hero",
+  "status": "active"
+}

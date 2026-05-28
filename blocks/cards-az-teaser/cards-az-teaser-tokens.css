@@ -1,0 +1,30 @@
+.cards-az-teaser {
+  --cards-az-teaser-max-width: 1180px;
+  --cards-az-teaser-gap: 40px;
+  --cards-az-teaser-card-bg: #ebefee;
+  --cards-az-teaser-card-radius: 8px;
+  --cards-az-teaser-image-height: 220px;
+  --cards-az-teaser-content-padding: 24px;
+  --cards-az-teaser-tag-font-family: 'Inter', sans-serif;
+  --cards-az-teaser-tag-font-size: 18px;
+  --cards-az-teaser-tag-line-height: 28px;
+  --cards-az-teaser-tag-font-weight: 700;
+  --cards-az-teaser-tag-color: #3c4242;
+  --cards-az-teaser-title-font-family: 'Lexia', serif;
+  --cards-az-teaser-title-font-size: 26px;
+  --cards-az-teaser-title-line-height: 34px;
+  --cards-az-teaser-title-color: #d0006f;
+  --cards-az-teaser-body-font-family: 'Inter', sans-serif;
+  --cards-az-teaser-body-font-size: 18px;
+  --cards-az-teaser-body-line-height: 28px;
+  --cards-az-teaser-body-color: #3c4242;
+  --cards-az-teaser-btn-bg: #d0006f;
+  --cards-az-teaser-btn-color: #fff;
+  --cards-az-teaser-btn-font-family: 'Inter', sans-serif;
+  --cards-az-teaser-btn-font-size: 16px;
+  --cards-az-teaser-btn-padding: 12px 24px;
+  --cards-az-teaser-btn-radius: 4px;
+  --cards-az-teaser-columns-desktop: 3;
+  --cards-az-teaser-columns-tablet: 2;
+  --cards-az-teaser-columns-mobile: 1;
+}

@@ -1,0 +1,23 @@
+{
+  "variantName": "quiz-az",
+  "blockType": "quiz",
+  "source": "figma",
+  "figmaNodeId": "13424:5052",
+  "figmaFileKey": "GcRd4HGw2IXFBB02O7McBy",
+  "characteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "quiz-interactive",
+    "imagePattern": "noimg",
+    "contentPattern": {
+      "structure": "progress-question-options-navigation",
+      "buttonCount": 2,
+      "imageCount": 0
+    }
+  },
+  "usage": {
+    "pagesUsing": ["quiz-demo"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T14:30:00.000Z"
+  }
+}

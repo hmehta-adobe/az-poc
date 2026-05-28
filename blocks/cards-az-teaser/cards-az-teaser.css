@@ -1,0 +1,93 @@
+@import url('./cards-az-teaser-tokens.css');
+
+.cards-az-teaser {
+  max-width: var(--cards-az-teaser-max-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(var(--cards-az-teaser-columns-mobile), 1fr);
+  gap: var(--cards-az-teaser-gap);
+}
+
+.cards-az-teaser .card {
+  background: var(--cards-az-teaser-card-bg);
+  border-radius: var(--cards-az-teaser-card-radius);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-az-teaser .card-image {
+  width: 100%;
+  height: var(--cards-az-teaser-image-height);
+  overflow: hidden;
+}
+
+.cards-az-teaser .card-image img {
+  width: 100%;
+  height: var(--cards-az-teaser-image-height);
+  object-fit: cover;
+  display: block;
+}
+
+.cards-az-teaser .card-content {
+  padding: var(--cards-az-teaser-content-padding);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.cards-az-teaser .card-tag {
+  font-family: var(--cards-az-teaser-tag-font-family);
+  font-size: var(--cards-az-teaser-tag-font-size);
+  line-height: var(--cards-az-teaser-tag-line-height);
+  font-weight: var(--cards-az-teaser-tag-font-weight);
+  color: var(--cards-az-teaser-tag-color);
+  margin: 0 0 8px;
+}
+
+.cards-az-teaser .card-content h2,
+.cards-az-teaser .card-content h3,
+.cards-az-teaser .card-content h4 {
+  font-family: var(--cards-az-teaser-title-font-family);
+  font-size: var(--cards-az-teaser-title-font-size);
+  line-height: var(--cards-az-teaser-title-line-height);
+  color: var(--cards-az-teaser-title-color);
+  margin: 0 0 12px;
+}
+
+.cards-az-teaser .card-content p {
+  font-family: var(--cards-az-teaser-body-font-family);
+  font-size: var(--cards-az-teaser-body-font-size);
+  line-height: var(--cards-az-teaser-body-line-height);
+  color: var(--cards-az-teaser-body-color);
+  margin: 0 0 16px;
+}
+
+.cards-az-teaser .card-content .button-container {
+  margin-top: auto;
+}
+
+.cards-az-teaser .card-content .button-container a,
+.cards-az-teaser .card-content a.button {
+  display: inline-block;
+  background: var(--cards-az-teaser-btn-bg);
+  color: var(--cards-az-teaser-btn-color);
+  font-family: var(--cards-az-teaser-btn-font-family);
+  font-size: var(--cards-az-teaser-btn-font-size);
+  padding: var(--cards-az-teaser-btn-padding);
+  border-radius: var(--cards-az-teaser-btn-radius);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media (width >= 600px) {
+  .cards-az-teaser {
+    grid-template-columns: repeat(var(--cards-az-teaser-columns-tablet), 1fr);
+  }
+}
+
+@media (width >= 900px) {
+  .cards-az-teaser {
+    grid-template-columns: repeat(var(--cards-az-teaser-columns-desktop), 1fr);
+  }
+}

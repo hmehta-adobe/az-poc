@@ -1,0 +1,23 @@
+{
+  "variantName": "toggle-az",
+  "blockType": "toggle",
+  "source": "figma",
+  "figmaNodeId": "13496:17292",
+  "figmaFileKey": "GcRd4HGw2IXFBB02O7McBy",
+  "characteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "consent",
+    "imagePattern": "noimg",
+    "contentPattern": {
+      "structure": "toggle-switches-with-descriptions",
+      "buttonCount": 0,
+      "imageCount": 0
+    }
+  },
+  "usage": {
+    "pagesUsing": ["batch3-demo"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T13:30:00.000Z"
+  }
+}

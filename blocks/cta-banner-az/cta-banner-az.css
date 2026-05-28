@@ -1,0 +1,147 @@
+@import url('./cta-banner-az-tokens.css');
+
+.cta-banner-az {
+  max-width: var(--cta-banner-az-max-width);
+  margin: 0 auto;
+  display: flex;
+  gap: var(--cta-banner-az-gap);
+  padding: var(--cta-banner-az-padding);
+  border-radius: var(--cta-banner-az-border-radius);
+  border: var(--cta-banner-az-border);
+  background: var(--cta-banner-az-background);
+}
+
+.cta-banner-az .cta-banner-az-image {
+  flex-shrink: 0;
+  width: var(--cta-banner-az-image-size);
+  height: var(--cta-banner-az-image-size);
+  overflow: hidden;
+}
+
+.cta-banner-az .cta-banner-az-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cta-banner-az .cta-banner-az-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--cta-banner-az-content-gap);
+}
+
+.cta-banner-az .cta-banner-az-content h2,
+.cta-banner-az .cta-banner-az-content h3,
+.cta-banner-az .cta-banner-az-content h4 {
+  font-family: var(--cta-banner-az-title-font-family);
+  font-size: var(--cta-banner-az-title-font-size);
+  font-weight: var(--cta-banner-az-title-font-weight);
+  line-height: var(--cta-banner-az-title-line-height);
+  color: var(--cta-banner-az-title-color);
+  margin: 0;
+}
+
+.cta-banner-az .cta-banner-az-content p {
+  font-family: var(--cta-banner-az-body-font-family);
+  font-size: var(--cta-banner-az-body-font-size);
+  font-weight: var(--cta-banner-az-body-font-weight);
+  line-height: var(--cta-banner-az-body-line-height);
+  color: var(--cta-banner-az-body-color);
+  margin: 0;
+}
+
+/* Input field */
+.cta-banner-az .cta-banner-az-field label {
+  display: block;
+  font-family: var(--cta-banner-az-body-font-family);
+  font-size: var(--cta-banner-az-body-font-size);
+  font-weight: var(--cta-banner-az-label-font-weight);
+  color: var(--cta-banner-az-label-color);
+  margin-bottom: 4px;
+}
+
+.cta-banner-az .cta-banner-az-field select,
+.cta-banner-az .cta-banner-az-field input {
+  width: 100%;
+  height: var(--cta-banner-az-input-height);
+  padding: var(--cta-banner-az-input-padding);
+  border-radius: var(--cta-banner-az-input-border-radius);
+  border: var(--cta-banner-az-input-border);
+  background: var(--cta-banner-az-input-background);
+  font-family: var(--cta-banner-az-input-font-family);
+  font-size: var(--cta-banner-az-input-font-size);
+  color: var(--cta-banner-az-input-color);
+  appearance: none;
+  outline: none;
+  padding-right: 40px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath d='M5 8l5 5 5-5' stroke='%233c4242' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+}
+
+.cta-banner-az .cta-banner-az-field .supportive {
+  font-size: var(--cta-banner-az-supportive-font-size);
+  color: var(--cta-banner-az-supportive-color);
+  margin-top: 4px;
+}
+
+/* Buttons */
+.cta-banner-az .cta-banner-az-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--cta-banner-az-btn-gap);
+}
+
+.cta-banner-az .cta-banner-az-actions a.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--cta-banner-az-btn-height);
+  padding: var(--cta-banner-az-btn-padding);
+  border-radius: var(--cta-banner-az-btn-border-radius);
+  font-family: var(--cta-banner-az-btn-font-family);
+  font-size: var(--cta-banner-az-btn-font-size);
+  font-weight: var(--cta-banner-az-btn-font-weight);
+  text-decoration: none;
+  background: var(--cta-banner-az-btn-primary-bg);
+  border: var(--cta-banner-az-btn-primary-border);
+  color: var(--cta-banner-az-btn-primary-color);
+}
+
+.cta-banner-az .cta-banner-az-actions a.button.secondary {
+  background: var(--cta-banner-az-btn-secondary-bg);
+  border: var(--cta-banner-az-btn-secondary-border);
+  color: var(--cta-banner-az-btn-secondary-color);
+}
+
+.cta-banner-az .cta-banner-az-actions a:not(.button) {
+  font-family: var(--cta-banner-az-btn-font-family);
+  font-size: var(--cta-banner-az-btn-font-size);
+  font-weight: var(--cta-banner-az-btn-font-weight);
+  color: var(--cta-banner-az-btn-tertiary-color);
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (width <= 899px) {
+  .cta-banner-az {
+    padding: 32px;
+  }
+}
+
+@media (width <= 599px) {
+  .cta-banner-az {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .cta-banner-az .cta-banner-az-actions {
+    flex-direction: column;
+  }
+
+  .cta-banner-az .cta-banner-az-actions a.button {
+    width: 100%;
+  }
+}

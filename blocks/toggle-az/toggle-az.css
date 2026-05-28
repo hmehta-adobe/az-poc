@@ -1,0 +1,81 @@
+@import url('./toggle-az-tokens.css');
+
+.toggle-az {
+  max-width: var(--toggle-az-max-width);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--toggle-az-gap);
+}
+
+.toggle-az .toggle-az-heading {
+  font-family: var(--toggle-az-title-font-family);
+  font-size: var(--toggle-az-title-font-size);
+  font-weight: var(--toggle-az-title-font-weight);
+  line-height: var(--toggle-az-title-line-height);
+  color: var(--toggle-az-title-color);
+  margin: 0;
+}
+
+.toggle-az .toggle-az-heading .required {
+  color: var(--toggle-az-required-color);
+}
+
+.toggle-az .toggle-az-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--toggle-az-item-gap);
+  padding: var(--toggle-az-item-padding);
+}
+
+.toggle-az .toggle-az-item-text {
+  flex: 1;
+  font-family: var(--toggle-az-desc-font-family);
+  font-size: var(--toggle-az-desc-font-size);
+  font-weight: var(--toggle-az-desc-font-weight);
+  line-height: var(--toggle-az-desc-line-height);
+  color: var(--toggle-az-desc-color);
+}
+
+/* Toggle switch */
+.toggle-az .toggle-az-switch {
+  position: relative;
+  width: var(--toggle-az-switch-width);
+  height: var(--toggle-az-switch-height);
+  border-radius: var(--toggle-az-switch-border-radius);
+  background: var(--toggle-az-switch-bg-off);
+  cursor: pointer;
+  flex-shrink: 0;
+  border: none;
+  padding: 0;
+  transition: background-color var(--toggle-az-transition);
+}
+
+.toggle-az .toggle-az-switch::after {
+  content: '';
+  position: absolute;
+  top: var(--toggle-az-knob-offset);
+  left: var(--toggle-az-knob-offset);
+  width: var(--toggle-az-knob-size);
+  height: var(--toggle-az-knob-size);
+  border-radius: 50%;
+  background: var(--toggle-az-knob-color);
+  transition: transform var(--toggle-az-transition);
+}
+
+.toggle-az .toggle-az-switch.active {
+  background: var(--toggle-az-switch-bg-on);
+}
+
+.toggle-az .toggle-az-switch.active::after {
+  transform: translateX(calc(var(--toggle-az-switch-width) - var(--toggle-az-knob-size) - var(--toggle-az-knob-offset) * 2));
+}
+
+/* Note */
+.toggle-az .toggle-az-note {
+  font-family: var(--toggle-az-note-font-family);
+  font-size: var(--toggle-az-note-font-size);
+  font-weight: var(--toggle-az-note-font-weight);
+  line-height: var(--toggle-az-note-line-height);
+  color: var(--toggle-az-note-color);
+}

@@ -1,0 +1,23 @@
+{
+  "variantName": "sortbar-az",
+  "blockType": "sortbar",
+  "source": "figma",
+  "figmaNodeId": "12552:2301",
+  "figmaFileKey": "GcRd4HGw2IXFBB02O7McBy",
+  "characteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "filter-sort",
+    "imagePattern": "noimg",
+    "contentPattern": {
+      "structure": "dropdowns-space-between",
+      "buttonCount": 0,
+      "imageCount": 0
+    }
+  },
+  "usage": {
+    "pagesUsing": ["sortbar-demo"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T13:00:00.000Z"
+  }
+}

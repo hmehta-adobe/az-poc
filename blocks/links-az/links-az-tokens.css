@@ -1,0 +1,30 @@
+.links-az {
+  /* ===== LAYOUT ===== */
+  --links-az-max-width: 1180px;
+  --links-az-border-left: 3px solid #f0ab00;
+
+  /* ===== ITEM ===== */
+  --links-az-item-height: 32px;
+  --links-az-item-padding: 4px 16px;
+
+  /* ===== PARENT LINK ===== */
+  --links-az-parent-font-family: 'Inter', sans-serif;
+  --links-az-parent-font-size: 16px;
+  --links-az-parent-font-weight: 700;
+  --links-az-parent-line-height: 24px;
+  --links-az-parent-color: #3c4242;
+
+  /* ===== CHILD LINK ===== */
+  --links-az-child-font-family: 'Inter', sans-serif;
+  --links-az-child-font-size: 16px;
+  --links-az-child-font-weight: 700;
+  --links-az-child-line-height: 24px;
+  --links-az-child-color: #d0006f;
+  --links-az-child-prefix: '— ';
+
+  /* ===== HOVER ===== */
+  --links-az-hover-opacity: 0.7;
+
+  /* ===== TRANSITIONS ===== */
+  --links-az-transition: 0.2s ease;
+}

@@ -1,0 +1,23 @@
+{
+  "variantName": "chips-az",
+  "blockType": "chips",
+  "source": "figma",
+  "figmaNodeId": "12334:9614",
+  "figmaFileKey": "GcRd4HGw2IXFBB02O7McBy",
+  "characteristics": {
+    "colorScheme": "multi",
+    "density": "compact",
+    "purpose": "tag",
+    "imagePattern": "noimg",
+    "contentPattern": {
+      "structure": "pill-label-icon",
+      "buttonCount": 0,
+      "imageCount": 0
+    }
+  },
+  "usage": {
+    "pagesUsing": ["chips-demo"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T10:00:00.000Z"
+  }
+}

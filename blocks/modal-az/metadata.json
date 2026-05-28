@@ -1,0 +1,24 @@
+{
+  "variantName": "modal-az",
+  "blockType": "modal",
+  "source": "figma",
+  "figmaNodeId": "12467:15529",
+  "figmaFileKey": "GcRd4HGw2IXFBB02O7McBy",
+  "characteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "dialog",
+    "imagePattern": "optional",
+    "contentPattern": {
+      "structure": "heading-body-actions-dismissible",
+      "buttonCount": 3,
+      "imageCount": 1
+    }
+  },
+  "variants": ["text-only", "slot", "image"],
+  "usage": {
+    "pagesUsing": ["modal-demo"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T10:00:00.000Z"
+  }
+}

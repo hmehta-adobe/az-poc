@@ -1,0 +1,58 @@
+@import url('./sortbar-az-tokens.css');
+
+.sortbar-az {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--sortbar-az-max-width);
+  margin: 0 auto;
+  gap: 16px;
+}
+
+.sortbar-az .sortbar-az-select {
+  position: relative;
+  width: var(--sortbar-az-select-width);
+}
+
+.sortbar-az .sortbar-az-select select {
+  width: 100%;
+  height: var(--sortbar-az-select-height);
+  padding: var(--sortbar-az-select-padding);
+  padding-right: 40px;
+  border-radius: var(--sortbar-az-select-border-radius);
+  border: var(--sortbar-az-select-border);
+  background: var(--sortbar-az-select-background);
+  font-family: var(--sortbar-az-select-font-family);
+  font-size: var(--sortbar-az-select-font-size);
+  line-height: var(--sortbar-az-select-line-height);
+  color: var(--sortbar-az-select-color);
+  appearance: none;
+  cursor: pointer;
+  outline: none;
+  transition: border-color var(--sortbar-az-transition);
+}
+
+.sortbar-az .sortbar-az-select select:focus {
+  border-color: #d0006f;
+}
+
+.sortbar-az .sortbar-az-select::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  width: 8px;
+  height: 8px;
+  border: 2px solid var(--sortbar-az-select-icon-color);
+  border-top: 0;
+  border-left: 0;
+  transform: translateY(-70%) rotate(45deg);
+  pointer-events: none;
+}
+
+@media (width <= 599px) {
+  .sortbar-az .sortbar-az-select {
+    flex: 1;
+    width: auto;
+  }
+}

@@ -1,0 +1,15 @@
+.cards-az-listing {
+  --cards-az-listing-max-width: 1180px;
+  --cards-az-listing-gap: 40px;
+  --cards-az-listing-image-width: 336px;
+  --cards-az-listing-image-height: 190px;
+  --cards-az-listing-title-font-family: 'Lexia', serif;
+  --cards-az-listing-title-font-size: 36px;
+  --cards-az-listing-title-line-height: 40px;
+  --cards-az-listing-title-color: #830051;
+  --cards-az-listing-body-font-family: 'Inter', sans-serif;
+  --cards-az-listing-body-font-size: 16px;
+  --cards-az-listing-body-line-height: 24px;
+  --cards-az-listing-body-color: #3c4242;
+  --cards-az-listing-card-gap: 40px;
+}

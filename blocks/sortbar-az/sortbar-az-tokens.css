@@ -1,0 +1,22 @@
+.sortbar-az {
+  /* ===== LAYOUT ===== */
+  --sortbar-az-max-width: 1180px;
+  --sortbar-az-height: 54px;
+
+  /* ===== SELECT ===== */
+  --sortbar-az-select-width: 200px;
+  --sortbar-az-select-height: 54px;
+  --sortbar-az-select-padding: 0 16px;
+  --sortbar-az-select-border-radius: 4px;
+  --sortbar-az-select-border: 1px solid #d8dada;
+  --sortbar-az-select-background: #fff;
+  --sortbar-az-select-font-family: 'Inter', sans-serif;
+  --sortbar-az-select-font-size: 16px;
+  --sortbar-az-select-line-height: 24px;
+  --sortbar-az-select-color: #3c4242;
+  --sortbar-az-select-icon-color: #3c4242;
+  --sortbar-az-select-icon-size: 20px;
+
+  /* ===== TRANSITIONS ===== */
+  --sortbar-az-transition: 0.2s ease;
+}

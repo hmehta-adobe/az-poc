@@ -1,0 +1,51 @@
+.search-az {
+  /* ===== INPUT FIELD ===== */
+  --search-az-input-height: 54px;
+  --search-az-input-padding: 0 16px;
+  --search-az-input-border-radius: 4px;
+  --search-az-input-border: 1px solid #d8dada;
+  --search-az-input-border-focus: 1px solid #d0006f;
+  --search-az-input-background: #fff;
+  --search-az-input-font-family: 'Inter', sans-serif;
+  --search-az-input-font-size: 16px;
+  --search-az-input-line-height: 24px;
+  --search-az-input-color: #3c4242;
+  --search-az-input-placeholder-color: #b2b4b4;
+  --search-az-input-gap: 8px;
+
+  /* ===== ICONS ===== */
+  --search-az-icon-size: 20px;
+  --search-az-icon-color: #d0006f;
+  --search-az-close-color: #3c4242;
+
+  /* ===== DROPDOWN ===== */
+  --search-az-dropdown-border-radius: 8px;
+  --search-az-dropdown-border: 1px solid #d0006f;
+  --search-az-dropdown-background: #fff;
+  --search-az-dropdown-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+
+  /* ===== SUGGESTION ITEM ===== */
+  --search-az-item-height: 54px;
+  --search-az-item-padding: 0 16px;
+  --search-az-item-border: 1px solid #d8dada;
+  --search-az-item-font-family: 'Inter', sans-serif;
+  --search-az-item-font-size: 16px;
+  --search-az-item-line-height: 24px;
+  --search-az-item-color: #3c4242;
+  --search-az-item-hover-bg: #f9fbfa;
+
+  /* ===== SHOW MORE BUTTON ===== */
+  --search-az-more-height: 34px;
+  --search-az-more-padding: 0 16px;
+  --search-az-more-border-radius: 4px;
+  --search-az-more-border: 1px solid #d0006f;
+  --search-az-more-background: #fff;
+  --search-az-more-font-family: 'Inter', sans-serif;
+  --search-az-more-font-size: 12px;
+  --search-az-more-font-weight: 500;
+  --search-az-more-line-height: 20px;
+  --search-az-more-color: #d0006f;
+
+  /* ===== TRANSITIONS ===== */
+  --search-az-transition: 0.2s ease;
+}

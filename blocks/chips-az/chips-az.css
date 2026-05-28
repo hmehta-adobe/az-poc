@@ -1,0 +1,92 @@
+@import url('./chips-az-tokens.css');
+
+.chips-az {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--chips-az-gap);
+  padding: var(--chips-az-padding);
+}
+
+/* Base chip styles */
+.chips-az .chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--chips-az-border-radius);
+  font-family: var(--chips-az-font-family);
+  font-weight: var(--chips-az-font-weight);
+  font-style: var(--chips-az-font-style);
+  white-space: nowrap;
+  cursor: pointer;
+  transition: var(--chips-az-transition);
+  height: var(--chips-az-lg-height);
+  padding: var(--chips-az-lg-padding);
+  gap: var(--chips-az-lg-gap);
+  font-size: var(--chips-az-lg-font-size);
+  line-height: var(--chips-az-lg-line-height);
+  background: var(--chips-az-dark-bg);
+  border: var(--chips-az-dark-border);
+  color: var(--chips-az-dark-color);
+}
+
+/* Size: small */
+.chips-az .chip.chip-small {
+  height: var(--chips-az-sm-height);
+  padding: var(--chips-az-sm-padding);
+  gap: var(--chips-az-sm-gap);
+  font-size: var(--chips-az-sm-font-size);
+  line-height: var(--chips-az-sm-line-height);
+}
+
+.chips-az .chip.chip-small .chip-icon {
+  width: var(--chips-az-sm-icon-size);
+  height: var(--chips-az-sm-icon-size);
+}
+
+/* State: light */
+.chips-az .chip.chip-light {
+  background: var(--chips-az-light-bg);
+  border: var(--chips-az-light-border);
+  color: var(--chips-az-light-color);
+}
+
+.chips-az .chip.chip-light .chip-icon {
+  color: var(--chips-az-light-icon-color);
+}
+
+/* State: active */
+.chips-az .chip.chip-active {
+  background: var(--chips-az-active-bg);
+  border: var(--chips-az-active-border);
+  color: var(--chips-az-active-color);
+}
+
+/* Icons */
+/* stylelint-disable-next-line no-descending-specificity */
+.chips-az .chip .chip-icon {
+  width: var(--chips-az-lg-icon-size);
+  height: var(--chips-az-lg-icon-size);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.chips-az .chip .chip-icon svg {
+  width: 100%;
+  height: 100%;
+  fill: currentcolor;
+}
+
+/* Close button */
+.chips-az .chip .chip-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.chips-az .chip .chip-close:hover {
+  opacity: 1;
+}

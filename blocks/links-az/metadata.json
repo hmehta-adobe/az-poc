@@ -1,0 +1,23 @@
+{
+  "variantName": "links-az",
+  "blockType": "links",
+  "source": "figma",
+  "figmaNodeId": "12929:24041",
+  "figmaFileKey": "GcRd4HGw2IXFBB02O7McBy",
+  "characteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "navigation",
+    "imagePattern": "noimg",
+    "contentPattern": {
+      "structure": "link-list-hierarchical",
+      "buttonCount": 0,
+      "imageCount": 0
+    }
+  },
+  "usage": {
+    "pagesUsing": ["links-demo"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T13:00:00.000Z"
+  }
+}

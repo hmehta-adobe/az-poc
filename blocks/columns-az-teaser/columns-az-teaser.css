@@ -1,0 +1,76 @@
+@import url('./columns-az-teaser-tokens.css');
+
+.columns-az-teaser {
+  max-width: var(--columns-az-teaser-max-width);
+  margin: 0 auto;
+}
+
+.columns-az-teaser .teaser-row {
+  display: flex;
+  flex-direction: column;
+  gap: var(--columns-az-teaser-gap);
+}
+
+.columns-az-teaser .column-image {
+  width: 100%;
+}
+
+.columns-az-teaser .column-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.columns-az-teaser .column-content h2,
+.columns-az-teaser .column-content h3,
+.columns-az-teaser .column-content h4 {
+  font-family: var(--columns-az-teaser-title-font-family);
+  font-size: var(--columns-az-teaser-title-font-size);
+  line-height: var(--columns-az-teaser-title-line-height);
+  color: var(--columns-az-teaser-title-color);
+  margin: 0 0 12px;
+}
+
+.columns-az-teaser .column-content p {
+  font-family: var(--columns-az-teaser-body-font-family);
+  font-size: var(--columns-az-teaser-body-font-size);
+  line-height: var(--columns-az-teaser-body-line-height);
+  color: var(--columns-az-teaser-body-color);
+  margin: 0 0 16px;
+}
+
+.columns-az-teaser .column-content .button-container a,
+.columns-az-teaser .column-content a.button {
+  display: inline-block;
+  background: var(--columns-az-teaser-btn-bg);
+  color: var(--columns-az-teaser-btn-color);
+  font-family: var(--columns-az-teaser-btn-font-family);
+  font-size: var(--columns-az-teaser-btn-font-size);
+  padding: var(--columns-az-teaser-btn-padding);
+  border-radius: var(--columns-az-teaser-btn-radius);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media (width >= 600px) {
+  .columns-az-teaser .teaser-row {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .columns-az-teaser .column-image {
+    width: var(--columns-az-teaser-image-width);
+    min-width: var(--columns-az-teaser-image-width);
+    flex-shrink: 0;
+  }
+
+  .columns-az-teaser .column-image img {
+    width: var(--columns-az-teaser-image-width);
+    height: var(--columns-az-teaser-image-height);
+  }
+
+  .columns-az-teaser .column-content {
+    flex: 1;
+  }
+}

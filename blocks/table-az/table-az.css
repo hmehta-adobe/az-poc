@@ -1,0 +1,45 @@
+@import url('./table-az-tokens.css');
+
+.table-az {
+  max-width: var(--table-az-max-width);
+  margin: 0 auto;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table-az table {
+  width: 100%;
+  border-collapse: var(--table-az-border-collapse);
+  min-width: 600px;
+}
+
+.table-az th,
+.table-az td {
+  padding: var(--table-az-cell-padding);
+  border: var(--table-az-cell-border);
+  font-family: var(--table-az-cell-font-family);
+  font-size: var(--table-az-cell-font-size);
+  font-weight: var(--table-az-cell-font-weight);
+  line-height: var(--table-az-cell-line-height);
+  color: var(--table-az-cell-color);
+  text-align: left;
+  vertical-align: middle;
+}
+
+.table-az thead th {
+  background: var(--table-az-header-bg);
+}
+
+.table-az tbody tr:nth-child(odd) td {
+  background: var(--table-az-row-odd-bg);
+}
+
+.table-az tbody tr:nth-child(even) td {
+  background: var(--table-az-row-even-bg);
+}
+
+/* Highlight class for specific cells/columns */
+.table-az th.highlight,
+.table-az tbody tr td.highlight {
+  background: var(--table-az-highlight-bg);
+}

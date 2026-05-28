@@ -1,0 +1,88 @@
+@import url('./pagination-az-tokens.css');
+
+.pagination-az {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--pagination-az-gap);
+}
+
+/* Base page item */
+.pagination-az .pagination-az-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--pagination-az-item-size);
+  height: var(--pagination-az-item-size);
+  font-family: var(--pagination-az-font-family);
+  font-size: var(--pagination-az-font-size);
+  font-weight: var(--pagination-az-font-weight);
+  line-height: var(--pagination-az-line-height);
+  color: var(--pagination-az-color);
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: color var(--pagination-az-transition), border-color var(--pagination-az-transition), background-color var(--pagination-az-transition);
+}
+
+.pagination-az .pagination-az-item:hover {
+  background-color: var(--pagination-az-hover-bg);
+}
+
+/* Active page */
+.pagination-az .pagination-az-item.active {
+  color: var(--pagination-az-active-color);
+  border-bottom: var(--pagination-az-active-border);
+}
+
+/* Ellipsis */
+.pagination-az .pagination-az-ellipsis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--pagination-az-item-size);
+  height: var(--pagination-az-item-size);
+  font-family: var(--pagination-az-font-family);
+  font-size: var(--pagination-az-font-size);
+  color: var(--pagination-az-color);
+  cursor: default;
+}
+
+/* Nav buttons (prev/next) */
+.pagination-az .pagination-az-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--pagination-az-nav-gap);
+  padding: var(--pagination-az-nav-padding);
+  height: var(--pagination-az-item-size);
+  font-family: var(--pagination-az-font-family);
+  font-size: var(--pagination-az-font-size);
+  font-weight: var(--pagination-az-font-weight);
+  line-height: var(--pagination-az-line-height);
+  color: var(--pagination-az-color);
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  background: none;
+  transition: color var(--pagination-az-transition);
+}
+
+.pagination-az .pagination-az-nav:hover {
+  color: var(--pagination-az-active-color);
+}
+
+.pagination-az .pagination-az-nav.disabled {
+  color: var(--pagination-az-disabled-color);
+  pointer-events: none;
+  cursor: default;
+}
+
+.pagination-az .pagination-az-nav svg {
+  width: var(--pagination-az-icon-size);
+  height: var(--pagination-az-icon-size);
+  stroke: currentcolor;
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+}

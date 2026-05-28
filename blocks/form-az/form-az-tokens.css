@@ -1,0 +1,50 @@
+.form-az {
+  /* ===== LAYOUT ===== */
+  --form-az-max-width: 1180px;
+  --form-az-row-gap: 40px;
+  --form-az-col-gap: 40px;
+
+  /* ===== LABEL ===== */
+  --form-az-label-font-family: 'Inter', sans-serif;
+  --form-az-label-font-size: 16px;
+  --form-az-label-font-weight: 700;
+  --form-az-label-line-height: 24px;
+  --form-az-label-color: #3c4242;
+  --form-az-required-color: #d0006f;
+
+  /* ===== INPUT ===== */
+  --form-az-input-height: 54px;
+  --form-az-input-padding: 0 16px;
+  --form-az-input-border-radius: 4px;
+  --form-az-input-border: 1px solid #d8dada;
+  --form-az-input-border-focus: 1px solid #d0006f;
+  --form-az-input-background: #fff;
+  --form-az-input-font-family: 'Inter', sans-serif;
+  --form-az-input-font-size: 16px;
+  --form-az-input-line-height: 24px;
+  --form-az-input-color: #3c4242;
+  --form-az-input-placeholder-color: #b2b4b4;
+
+  /* ===== CHECKBOX ===== */
+  --form-az-checkbox-size: 20px;
+  --form-az-checkbox-border-radius: 4px;
+  --form-az-checkbox-border: 1px solid #d8dada;
+  --form-az-checkbox-bg: #fff;
+  --form-az-checkbox-checked-bg: #d0006f;
+  --form-az-checkbox-gap: 12px;
+  --form-az-checkbox-label-color: #d0006f;
+
+  /* ===== BUTTON ===== */
+  --form-az-btn-height: 42px;
+  --form-az-btn-padding: 0 16px;
+  --form-az-btn-border-radius: 4px;
+  --form-az-btn-background: #d0006f;
+  --form-az-btn-border: 1px solid #d0006f;
+  --form-az-btn-color: #fff;
+  --form-az-btn-font-family: 'Inter', sans-serif;
+  --form-az-btn-font-size: 16px;
+  --form-az-btn-font-weight: 700;
+
+  /* ===== TRANSITIONS ===== */
+  --form-az-transition: 0.2s ease;
+}

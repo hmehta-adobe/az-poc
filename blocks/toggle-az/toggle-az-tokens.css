@@ -1,0 +1,44 @@
+.toggle-az {
+  /* ===== LAYOUT ===== */
+  --toggle-az-max-width: 1180px;
+  --toggle-az-gap: 24px;
+
+  /* ===== TITLE ===== */
+  --toggle-az-title-font-family: 'Inter', sans-serif;
+  --toggle-az-title-font-size: 16px;
+  --toggle-az-title-font-weight: 700;
+  --toggle-az-title-line-height: 24px;
+  --toggle-az-title-color: #3c4242;
+  --toggle-az-required-color: #d0006f;
+
+  /* ===== DESCRIPTION ===== */
+  --toggle-az-desc-font-family: 'Inter', sans-serif;
+  --toggle-az-desc-font-size: 16px;
+  --toggle-az-desc-font-weight: 400;
+  --toggle-az-desc-line-height: 24px;
+  --toggle-az-desc-color: #3c4242;
+
+  /* ===== NOTE ===== */
+  --toggle-az-note-font-family: 'Inter', sans-serif;
+  --toggle-az-note-font-size: 16px;
+  --toggle-az-note-font-weight: 400;
+  --toggle-az-note-line-height: 24px;
+  --toggle-az-note-color: #d0006f;
+
+  /* ===== TOGGLE SWITCH ===== */
+  --toggle-az-switch-width: 44px;
+  --toggle-az-switch-height: 24px;
+  --toggle-az-switch-border-radius: 12px;
+  --toggle-az-switch-bg-off: #d8dada;
+  --toggle-az-switch-bg-on: #d0006f;
+  --toggle-az-knob-size: 20px;
+  --toggle-az-knob-color: #fff;
+  --toggle-az-knob-offset: 2px;
+
+  /* ===== ITEM ===== */
+  --toggle-az-item-padding: 16px 0;
+  --toggle-az-item-gap: 16px;
+
+  /* ===== TRANSITIONS ===== */
+  --toggle-az-transition: 0.2s ease;
+}

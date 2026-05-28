@@ -1,0 +1,64 @@
+@import url('./cards-az-listing-tokens.css');
+
+.cards-az-listing {
+  max-width: var(--cards-az-listing-max-width);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--cards-az-listing-card-gap);
+}
+
+.cards-az-listing .card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--cards-az-listing-gap);
+}
+
+.cards-az-listing .card-image {
+  flex-shrink: 0;
+}
+
+.cards-az-listing .card-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.cards-az-listing .card-content h2,
+.cards-az-listing .card-content h3,
+.cards-az-listing .card-content h4 {
+  font-family: var(--cards-az-listing-title-font-family);
+  font-size: var(--cards-az-listing-title-font-size);
+  line-height: var(--cards-az-listing-title-line-height);
+  color: var(--cards-az-listing-title-color);
+  margin: 0 0 8px;
+}
+
+.cards-az-listing .card-content p {
+  font-family: var(--cards-az-listing-body-font-family);
+  font-size: var(--cards-az-listing-body-font-size);
+  line-height: var(--cards-az-listing-body-line-height);
+  color: var(--cards-az-listing-body-color);
+  margin: 0;
+}
+
+@media (width >= 600px) {
+  .cards-az-listing .card {
+    flex-direction: row;
+  }
+
+  .cards-az-listing .card-image {
+    width: var(--cards-az-listing-image-width);
+    min-width: var(--cards-az-listing-image-width);
+  }
+
+  .cards-az-listing .card-image img {
+    width: var(--cards-az-listing-image-width);
+    height: var(--cards-az-listing-image-height);
+  }
+
+  .cards-az-listing .card-content {
+    flex: 1;
+  }
+}

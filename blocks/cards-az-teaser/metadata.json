@@ -1,0 +1,6 @@
+{
+  "name": "Cards AZ Teaser",
+  "description": "Grid of teaser cards with image, tag, title, body text, and CTA button. Displays 3 columns on desktop, 2 on tablet, 1 on mobile.",
+  "group": "cards",
+  "status": "active"
+}

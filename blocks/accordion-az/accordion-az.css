@@ -1,0 +1,111 @@
+@import url('./accordion-az-tokens.css');
+
+.accordion-az {
+  max-width: var(--accordion-az-max-width);
+  margin: 0 auto;
+  background: var(--accordion-az-background);
+}
+
+.accordion-az details {
+  border: var(--accordion-az-item-border-width) var(--accordion-az-item-border-style) var(--accordion-az-item-border-color);
+  border-radius: var(--accordion-az-item-border-radius);
+  background: var(--accordion-az-item-background);
+  box-shadow: var(--accordion-az-item-shadow);
+}
+
+.accordion-az details + details {
+  margin-top: var(--accordion-az-item-gap);
+}
+
+.accordion-az details summary {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: var(--accordion-az-label-gap);
+  padding: var(--accordion-az-item-padding);
+  padding-bottom: var(--accordion-az-item-gap);
+  cursor: pointer;
+  list-style: none;
+  transition: background-color var(--accordion-az-transition-duration) var(--accordion-az-transition-timing);
+}
+
+.accordion-az details summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordion-az details summary > * {
+  font-family: var(--accordion-az-title-font-family);
+  font-size: var(--accordion-az-title-font-size);
+  font-weight: var(--accordion-az-title-font-weight);
+  font-style: var(--accordion-az-title-font-style);
+  line-height: var(--accordion-az-title-line-height);
+  letter-spacing: var(--accordion-az-title-letter-spacing);
+  text-transform: var(--accordion-az-title-text-transform);
+  color: var(--accordion-az-title-color);
+  margin: 0;
+  flex: 1;
+}
+
+.accordion-az details summary::after {
+  content: '';
+  flex-shrink: 0;
+  width: var(--accordion-az-chevron-size);
+  height: var(--accordion-az-chevron-size);
+  border: 2px solid var(--accordion-az-chevron-color);
+  border-width: 2px 2px 0 0;
+  transform: rotate(135deg);
+  transition: transform var(--accordion-az-transition-duration) var(--accordion-az-transition-timing);
+}
+
+.accordion-az details[open] summary::after {
+  transform: rotate(-45deg);
+}
+
+.accordion-az details .accordion-item-body {
+  padding: var(--accordion-az-content-padding);
+  border-top: var(--accordion-az-separator-height) solid var(--accordion-az-separator-color);
+  padding-top: var(--accordion-az-item-gap);
+}
+
+.accordion-az details .accordion-item-body h2,
+.accordion-az details .accordion-item-body h3 {
+  font-family: var(--accordion-az-heading-font-family);
+  font-size: var(--accordion-az-heading-font-size);
+  font-weight: var(--accordion-az-heading-font-weight);
+  font-style: var(--accordion-az-heading-font-style);
+  line-height: var(--accordion-az-heading-line-height);
+  letter-spacing: var(--accordion-az-heading-letter-spacing);
+  text-transform: var(--accordion-az-heading-text-transform);
+  color: var(--accordion-az-heading-color);
+  margin: 0 0 var(--accordion-az-content-gap) 0;
+}
+
+.accordion-az details .accordion-item-body p {
+  font-family: var(--accordion-az-body-font-family);
+  font-size: var(--accordion-az-body-font-size);
+  font-weight: var(--accordion-az-body-font-weight);
+  font-style: var(--accordion-az-body-font-style);
+  line-height: var(--accordion-az-body-line-height);
+  letter-spacing: var(--accordion-az-body-letter-spacing);
+  color: var(--accordion-az-body-color);
+  margin: 0 0 var(--accordion-az-content-gap) 0;
+}
+
+.accordion-az details .accordion-item-body p:last-child {
+  margin-bottom: 0;
+}
+
+@media (width <= 899px) {
+  .accordion-az details summary > * {
+    font-size: var(--accordion-az-title-font-size);
+    line-height: var(--accordion-az-title-line-height);
+  }
+}
+
+@media (width <= 599px) {
+  .accordion-az details .accordion-item-body h2,
+  .accordion-az details .accordion-item-body h3 {
+    font-size: var(--accordion-az-title-font-size);
+    line-height: var(--accordion-az-title-line-height);
+  }
+}

@@ -1,0 +1,10 @@
+.hero-az-media {
+  --hero-az-media-max-width: 1180px;
+  --hero-az-media-height: 600px;
+  --hero-az-media-height-mobile: auto;
+  --hero-az-media-object-fit: cover;
+  --hero-az-media-border-radius: 0;
+  --hero-az-media-play-btn-size: 64px;
+  --hero-az-media-play-btn-bg: rgb(208 0 111 / 90%);
+  --hero-az-media-play-btn-color: #fff;
+}

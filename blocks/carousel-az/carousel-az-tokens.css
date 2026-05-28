@@ -1,0 +1,73 @@
+.carousel-az {
+  /* ===== LAYOUT & DIMENSIONS ===== */
+  --carousel-az-max-width: 1340px;
+  --carousel-az-padding: 40px 0;
+  --carousel-az-background: transparent;
+
+  /* ===== SLIDE LAYOUT ===== */
+  --carousel-az-slide-direction: row;
+  --carousel-az-slide-align: center;
+  --carousel-az-slide-gap: 32px;
+  --carousel-az-slide-min-height: auto;
+
+  /* ===== IMAGE ===== */
+  --carousel-az-image-width: 574px;
+  --carousel-az-image-height: 324px;
+  --carousel-az-image-border-radius: 0;
+  --carousel-az-image-object-fit: cover;
+
+  /* ===== CONTENT ===== */
+  --carousel-az-content-background: transparent;
+  --carousel-az-content-padding: 0;
+  --carousel-az-content-gap: 16px;
+  --carousel-az-content-justify: space-between;
+
+  /* ===== TYPOGRAPHY - HEADING ===== */
+  --carousel-az-heading-font-family: 'Lexia', serif;
+  --carousel-az-heading-font-size: 26px;
+  --carousel-az-heading-font-weight: 400;
+  --carousel-az-heading-line-height: 34px;
+  --carousel-az-heading-color: #830051;
+  --carousel-az-heading-text-transform: none;
+
+  /* ===== TYPOGRAPHY - BODY ===== */
+  --carousel-az-body-font-family: 'Inter', sans-serif;
+  --carousel-az-body-font-size: 18px;
+  --carousel-az-body-font-weight: 400;
+  --carousel-az-body-line-height: 28px;
+  --carousel-az-body-color: #3c4242;
+
+  /* ===== BUTTON ===== */
+  --carousel-az-button-font-family: 'Inter', sans-serif;
+  --carousel-az-button-font-size: 16px;
+  --carousel-az-button-font-weight: 700;
+  --carousel-az-button-line-height: 24px;
+  --carousel-az-button-color: #fff;
+  --carousel-az-button-background: #d0006f;
+  --carousel-az-button-border: 1px solid #d0006f;
+  --carousel-az-button-border-radius: 4px;
+  --carousel-az-button-padding: 8px 16px;
+  --carousel-az-button-height: 42px;
+
+  /* ===== NAVIGATION ARROWS ===== */
+  --carousel-az-nav-size: 56px;
+  --carousel-az-nav-border: 2px solid #d0006f;
+  --carousel-az-nav-border-radius: 50%;
+  --carousel-az-nav-background: transparent;
+  --carousel-az-nav-arrow-color: #d0006f;
+  --carousel-az-nav-arrow-size: 12px;
+  --carousel-az-nav-hover-background: rgb(208 0 111 / 10%);
+  --carousel-az-nav-gap: 24px;
+
+  /* ===== DOTS / INDICATORS ===== */
+  --carousel-az-dot-size: 8px;
+  --carousel-az-dot-gap: 16px;
+  --carousel-az-dot-color: #3c4242;
+  --carousel-az-dot-active-color: #d0006f;
+  --carousel-az-dot-padding: 20px 0;
+  --carousel-az-dot-background: transparent;
+
+  /* ===== TRANSITIONS ===== */
+  --carousel-az-transition-duration: 0.2s;
+  --carousel-az-transition-timing: ease;
+}

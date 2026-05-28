@@ -1,0 +1,23 @@
+{
+  "variantName": "social-az",
+  "blockType": "social",
+  "source": "figma",
+  "figmaNodeId": "12534:1394",
+  "figmaFileKey": "GcRd4HGw2IXFBB02O7McBy",
+  "characteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "social-actions",
+    "imagePattern": "noimg",
+    "contentPattern": {
+      "structure": "date-text-action-icons",
+      "buttonCount": 3,
+      "imageCount": 0
+    }
+  },
+  "usage": {
+    "pagesUsing": ["social-demo"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T12:45:00.000Z"
+  }
+}

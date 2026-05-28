@@ -1,0 +1,57 @@
+.quiz-az {
+  /* ===== CONTAINER ===== */
+  --quiz-az-background: #ebefee;
+  --quiz-az-padding: 40px;
+
+  /* ===== PROGRESS BAR ===== */
+  --quiz-az-progress-height: 24px;
+  --quiz-az-progress-track: #f6cee7;
+  --quiz-az-progress-fill: #d0006f;
+  --quiz-az-progress-text-color: #fff;
+  --quiz-az-progress-font-size: 12px;
+
+  /* ===== CARD ===== */
+  --quiz-az-card-background: #fff;
+  --quiz-az-card-padding: 40px 96px;
+
+  /* ===== QUESTION TITLE ===== */
+  --quiz-az-title-font-family: 'Lexia', serif;
+  --quiz-az-title-font-size: 46px;
+  --quiz-az-title-font-weight: 400;
+  --quiz-az-title-line-height: 50px;
+  --quiz-az-title-color: #830051;
+
+  /* ===== BODY ===== */
+  --quiz-az-body-font-family: 'Inter', sans-serif;
+  --quiz-az-body-font-size: 18px;
+  --quiz-az-body-font-weight: 400;
+  --quiz-az-body-line-height: 28px;
+  --quiz-az-body-color: #3c4242;
+
+  /* ===== OPTIONS ===== */
+  --quiz-az-option-background: #ebefee;
+  --quiz-az-option-padding: 16px;
+  --quiz-az-option-gap: 16px;
+  --quiz-az-option-border-radius: 0;
+  --quiz-az-checkbox-size: 20px;
+  --quiz-az-checkbox-border: 1px solid #d8dada;
+  --quiz-az-checkbox-border-radius: 4px;
+  --quiz-az-checkbox-checked-bg: #d0006f;
+
+  /* ===== BUTTONS ===== */
+  --quiz-az-btn-height: 42px;
+  --quiz-az-btn-padding: 0 16px;
+  --quiz-az-btn-border-radius: 4px;
+  --quiz-az-btn-font-family: 'Inter', sans-serif;
+  --quiz-az-btn-font-size: 16px;
+  --quiz-az-btn-font-weight: 700;
+  --quiz-az-btn-primary-bg: #d0006f;
+  --quiz-az-btn-primary-border: 1px solid #d0006f;
+  --quiz-az-btn-primary-color: #fff;
+  --quiz-az-btn-secondary-bg: #fff;
+  --quiz-az-btn-secondary-border: 1px solid #d0006f;
+  --quiz-az-btn-secondary-color: #d0006f;
+
+  /* ===== GAPS ===== */
+  --quiz-az-section-gap: 40px;
+}

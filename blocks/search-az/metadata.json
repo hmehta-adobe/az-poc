@@ -1,0 +1,23 @@
+{
+  "variantName": "search-az",
+  "blockType": "search",
+  "source": "figma",
+  "figmaNodeId": "12686:17319",
+  "figmaFileKey": "GcRd4HGw2IXFBB02O7McBy",
+  "characteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "search",
+    "imagePattern": "noimg",
+    "contentPattern": {
+      "structure": "input-dropdown-suggestions",
+      "buttonCount": 1,
+      "imageCount": 0
+    }
+  },
+  "usage": {
+    "pagesUsing": ["search-demo"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T10:15:00.000Z"
+  }
+}

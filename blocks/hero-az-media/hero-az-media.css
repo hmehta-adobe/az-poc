@@ -1,0 +1,57 @@
+@import url('./hero-az-media-tokens.css');
+
+.hero-az-media {
+  width: 100%;
+  max-width: var(--hero-az-media-max-width);
+  margin: 0 auto;
+  position: relative;
+  border-radius: var(--hero-az-media-border-radius);
+  overflow: hidden;
+}
+
+.hero-az-media .media-container {
+  width: 100%;
+  height: var(--hero-az-media-height-mobile);
+  position: relative;
+}
+
+.hero-az-media .media-container img,
+.hero-az-media .media-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: var(--hero-az-media-object-fit);
+  display: block;
+}
+
+.hero-az-media .play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: var(--hero-az-media-play-btn-size);
+  height: var(--hero-az-media-play-btn-size);
+  background: var(--hero-az-media-play-btn-bg);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+}
+
+.hero-az-media .play-button::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 0 10px 18px;
+  border-color: transparent transparent transparent var(--hero-az-media-play-btn-color);
+  margin-left: 4px;
+}
+
+@media (width >= 600px) {
+  .hero-az-media .media-container {
+    height: var(--hero-az-media-height);
+  }
+}

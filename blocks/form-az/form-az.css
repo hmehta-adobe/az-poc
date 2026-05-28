@@ -1,0 +1,139 @@
+@import url('./form-az-tokens.css');
+
+.form-az {
+  max-width: var(--form-az-max-width);
+  margin: 0 auto;
+}
+
+.form-az form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--form-az-row-gap);
+}
+
+.form-az .form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--form-az-col-gap);
+}
+
+.form-az .form-field label {
+  display: block;
+  font-family: var(--form-az-label-font-family);
+  font-size: var(--form-az-label-font-size);
+  font-weight: var(--form-az-label-font-weight);
+  line-height: var(--form-az-label-line-height);
+  color: var(--form-az-label-color);
+  margin-bottom: 8px;
+}
+
+.form-az .form-field label .required {
+  color: var(--form-az-required-color);
+}
+
+.form-az .form-field input,
+.form-az .form-field select {
+  width: 100%;
+  height: var(--form-az-input-height);
+  padding: var(--form-az-input-padding);
+  border-radius: var(--form-az-input-border-radius);
+  border: var(--form-az-input-border);
+  background: var(--form-az-input-background);
+  font-family: var(--form-az-input-font-family);
+  font-size: var(--form-az-input-font-size);
+  line-height: var(--form-az-input-line-height);
+  color: var(--form-az-input-color);
+  outline: none;
+  transition: border-color var(--form-az-transition);
+}
+
+.form-az .form-field input::placeholder {
+  color: var(--form-az-input-placeholder-color);
+}
+
+.form-az .form-field select {
+  appearance: none;
+  padding-right: 40px;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath d='M5 8l5 5 5-5' stroke='%233c4242' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+}
+
+.form-az .form-field input:focus,
+.form-az .form-field select:focus {
+  border: var(--form-az-input-border-focus);
+}
+
+/* Checkbox row */
+.form-az .form-checkboxes {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-az .form-checkbox {
+  display: flex;
+  align-items: center;
+  gap: var(--form-az-checkbox-gap);
+  cursor: pointer;
+}
+
+.form-az .form-checkbox input[type="checkbox"] {
+  width: var(--form-az-checkbox-size);
+  height: var(--form-az-checkbox-size);
+  border-radius: var(--form-az-checkbox-border-radius);
+  border: var(--form-az-checkbox-border);
+  background: var(--form-az-checkbox-bg);
+  appearance: none;
+  cursor: pointer;
+  flex-shrink: 0;
+  padding: 0;
+}
+
+.form-az .form-checkbox input[type="checkbox"]:checked {
+  background: var(--form-az-checkbox-checked-bg);
+  border-color: var(--form-az-checkbox-checked-bg);
+}
+
+.form-az .form-checkbox span {
+  font-family: var(--form-az-input-font-family);
+  font-size: var(--form-az-input-font-size);
+  line-height: var(--form-az-input-line-height);
+  color: var(--form-az-checkbox-label-color);
+  text-decoration: underline;
+}
+
+/* Submit button */
+.form-az .form-submit {
+  display: flex;
+  justify-content: center;
+}
+
+.form-az .form-submit button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--form-az-btn-height);
+  padding: var(--form-az-btn-padding);
+  border-radius: var(--form-az-btn-border-radius);
+  background: var(--form-az-btn-background);
+  border: var(--form-az-btn-border);
+  color: var(--form-az-btn-color);
+  font-family: var(--form-az-btn-font-family);
+  font-size: var(--form-az-btn-font-size);
+  font-weight: var(--form-az-btn-font-weight);
+  cursor: pointer;
+  transition: opacity var(--form-az-transition);
+}
+
+.form-az .form-submit button:hover {
+  opacity: 0.85;
+}
+
+/* Responsive */
+@media (width <= 599px) {
+  .form-az .form-row {
+    grid-template-columns: 1fr;
+  }
+}

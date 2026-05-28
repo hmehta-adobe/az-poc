@@ -1,0 +1,24 @@
+.table-az {
+  /* ===== LAYOUT ===== */
+  --table-az-max-width: 1180px;
+  --table-az-border-collapse: collapse;
+
+  /* ===== CELL ===== */
+  --table-az-cell-padding: 16px;
+  --table-az-cell-border: 1px solid #b2b4b4;
+  --table-az-cell-font-family: 'Lexia', serif;
+  --table-az-cell-font-size: 14px;
+  --table-az-cell-font-weight: 700;
+  --table-az-cell-line-height: 16px;
+  --table-az-cell-color: #3c4242;
+
+  /* ===== HEADER ===== */
+  --table-az-header-bg: #d8dfde;
+
+  /* ===== ROW BACKGROUNDS ===== */
+  --table-az-row-odd-bg: #fff;
+  --table-az-row-even-bg: #ebefee;
+
+  /* ===== HIGHLIGHT ===== */
+  --table-az-highlight-bg: #f6cee7;
+}

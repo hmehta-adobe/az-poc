@@ -1,0 +1,60 @@
+.cta-banner-az {
+  /* ===== CONTAINER ===== */
+  --cta-banner-az-max-width: 1180px;
+  --cta-banner-az-padding: 40px;
+  --cta-banner-az-border-radius: 8px;
+  --cta-banner-az-border: 4px solid #b2b4b4;
+  --cta-banner-az-background: #fff;
+  --cta-banner-az-gap: 20px;
+
+  /* ===== IMAGE ===== */
+  --cta-banner-az-image-size: 120px;
+
+  /* ===== CONTENT ===== */
+  --cta-banner-az-content-gap: 16px;
+
+  /* ===== TITLE ===== */
+  --cta-banner-az-title-font-family: 'Lexia', serif;
+  --cta-banner-az-title-font-size: 26px;
+  --cta-banner-az-title-font-weight: 400;
+  --cta-banner-az-title-line-height: 34px;
+  --cta-banner-az-title-color: #830051;
+
+  /* ===== BODY ===== */
+  --cta-banner-az-body-font-family: 'Inter', sans-serif;
+  --cta-banner-az-body-font-size: 16px;
+  --cta-banner-az-body-font-weight: 400;
+  --cta-banner-az-body-line-height: 24px;
+  --cta-banner-az-body-color: #3c4242;
+
+  /* ===== INPUT ===== */
+  --cta-banner-az-input-height: 54px;
+  --cta-banner-az-input-padding: 0 16px;
+  --cta-banner-az-input-border-radius: 4px;
+  --cta-banner-az-input-border: 1px solid #d8dada;
+  --cta-banner-az-input-background: #fff;
+  --cta-banner-az-input-font-family: 'Inter', sans-serif;
+  --cta-banner-az-input-font-size: 16px;
+  --cta-banner-az-input-color: #3c4242;
+  --cta-banner-az-input-placeholder: #b2b4b4;
+  --cta-banner-az-label-font-weight: 700;
+  --cta-banner-az-label-color: #3c4242;
+  --cta-banner-az-supportive-font-size: 12px;
+  --cta-banner-az-supportive-color: #656969;
+
+  /* ===== BUTTONS ===== */
+  --cta-banner-az-btn-gap: 10px;
+  --cta-banner-az-btn-height: 42px;
+  --cta-banner-az-btn-padding: 0 16px;
+  --cta-banner-az-btn-border-radius: 4px;
+  --cta-banner-az-btn-font-family: 'Inter', sans-serif;
+  --cta-banner-az-btn-font-size: 16px;
+  --cta-banner-az-btn-font-weight: 700;
+  --cta-banner-az-btn-primary-bg: #d0006f;
+  --cta-banner-az-btn-primary-border: 1px solid #d0006f;
+  --cta-banner-az-btn-primary-color: #fff;
+  --cta-banner-az-btn-secondary-bg: #fff;
+  --cta-banner-az-btn-secondary-border: 1px solid #d0006f;
+  --cta-banner-az-btn-secondary-color: #d0006f;
+  --cta-banner-az-btn-tertiary-color: #3c4242;
+}

@@ -1,0 +1,28 @@
+.pagination-az {
+  /* ===== LAYOUT ===== */
+  --pagination-az-item-size: 40px;
+  --pagination-az-gap: 0;
+
+  /* ===== TYPOGRAPHY ===== */
+  --pagination-az-font-family: 'Lexia', serif;
+  --pagination-az-font-size: 16px;
+  --pagination-az-font-weight: 400;
+  --pagination-az-line-height: 24px;
+
+  /* ===== COLORS ===== */
+  --pagination-az-color: #3c4242;
+  --pagination-az-active-color: #d0006f;
+  --pagination-az-active-border: 2px solid #d0006f;
+  --pagination-az-disabled-color: #b2b4b4;
+  --pagination-az-hover-bg: rgb(208 0 111 / 5%);
+
+  /* ===== ICON ===== */
+  --pagination-az-icon-size: 20px;
+
+  /* ===== NAV BUTTON ===== */
+  --pagination-az-nav-gap: 4px;
+  --pagination-az-nav-padding: 0 10px;
+
+  /* ===== TRANSITIONS ===== */
+  --pagination-az-transition: 0.2s ease;
+}

@@ -1,0 +1,24 @@
+{
+  "variantName": "tabs-az",
+  "blockType": "tabs",
+  "source": "figma",
+  "figmaNodeId": "12305:8988",
+  "figmaFileKey": "GcRd4HGw2IXFBB02O7McBy",
+  "characteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "navigation",
+    "imagePattern": "noimg",
+    "contentPattern": {
+      "structure": "tabbed-panels",
+      "buttonCount": 0,
+      "imageCount": 0
+    }
+  },
+  "variants": ["default-large", "compact-large", "default-medium", "compact-medium"],
+  "usage": {
+    "pagesUsing": ["tabs-demo"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T10:45:00.000Z"
+  }
+}

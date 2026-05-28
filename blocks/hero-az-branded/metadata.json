@@ -1,0 +1,23 @@
+{
+  "variantName": "hero-az-branded",
+  "blockType": "hero",
+  "source": "figma",
+  "figmaNodeId": "12950:25095",
+  "figmaFileKey": "GcRd4HGw2IXFBB02O7McBy",
+  "characteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "hero-branded",
+    "imagePattern": "large",
+    "contentPattern": {
+      "structure": "logo-heading-body-cta-image-split",
+      "buttonCount": 1,
+      "imageCount": 2
+    }
+  },
+  "usage": {
+    "pagesUsing": ["hero-branded-demo"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T14:15:00.000Z"
+  }
+}

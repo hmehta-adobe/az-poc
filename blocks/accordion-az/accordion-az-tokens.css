@@ -1,0 +1,73 @@
+.accordion-az {
+  /* ===== LAYOUT & DIMENSIONS ===== */
+  --accordion-az-max-width: 1180px;
+  --accordion-az-padding-top: 0;
+  --accordion-az-padding-right: 0;
+  --accordion-az-padding-bottom: 0;
+  --accordion-az-padding-left: 0;
+  --accordion-az-gap: 0;
+
+  /* ===== CONTAINER COLORS ===== */
+  --accordion-az-background: transparent;
+
+  /* ===== ITEM PROPERTIES ===== */
+  --accordion-az-item-padding: 0;
+  --accordion-az-item-gap: 20px;
+  --accordion-az-item-background: transparent;
+  --accordion-az-item-border-width: 0;
+  --accordion-az-item-border-style: none;
+  --accordion-az-item-border-color: transparent;
+  --accordion-az-item-border-radius: 0;
+
+  /* ===== SEPARATOR ===== */
+  --accordion-az-separator-height: 1px;
+  --accordion-az-separator-color: #ebefee;
+
+  /* ===== TYPOGRAPHY - TITLE (ACCORDION LABEL) ===== */
+  --accordion-az-title-font-family: 'Lexia', serif;
+  --accordion-az-title-font-size: 36px;
+  --accordion-az-title-font-weight: 400;
+  --accordion-az-title-font-style: normal;
+  --accordion-az-title-line-height: 40px;
+  --accordion-az-title-letter-spacing: normal;
+  --accordion-az-title-text-transform: none;
+  --accordion-az-title-color: #830051;
+
+  /* ===== TYPOGRAPHY - HEADING (EXPANDED CONTENT) ===== */
+  --accordion-az-heading-font-family: 'Lexia', serif;
+  --accordion-az-heading-font-size: 46px;
+  --accordion-az-heading-font-weight: 400;
+  --accordion-az-heading-font-style: normal;
+  --accordion-az-heading-line-height: 50px;
+  --accordion-az-heading-letter-spacing: normal;
+  --accordion-az-heading-text-transform: none;
+  --accordion-az-heading-color: #830051;
+
+  /* ===== TYPOGRAPHY - BODY ===== */
+  --accordion-az-body-font-family: 'Inter', sans-serif;
+  --accordion-az-body-font-size: 16px;
+  --accordion-az-body-font-weight: 400;
+  --accordion-az-body-font-style: normal;
+  --accordion-az-body-line-height: 24px;
+  --accordion-az-body-letter-spacing: normal;
+  --accordion-az-body-color: #3c4242;
+
+  /* ===== CHEVRON ICON ===== */
+  --accordion-az-chevron-size: 20px;
+  --accordion-az-chevron-color: #830051;
+
+  /* ===== SPACING ===== */
+  --accordion-az-label-gap: 24px;
+  --accordion-az-content-gap: 16px;
+  --accordion-az-content-padding: 0;
+
+  /* ===== EFFECTS & TRANSITIONS ===== */
+  --accordion-az-transition-duration: 0.2s;
+  --accordion-az-transition-timing: ease;
+
+  /* ===== SHADOWS ===== */
+  --accordion-az-item-shadow: none;
+
+  /* ===== HOVER STATES ===== */
+  --accordion-az-hover-background: transparent;
+}

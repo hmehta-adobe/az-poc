@@ -1,0 +1,265 @@
+@import url('./modal-az-tokens.css');
+
+/* Block container */
+.modal-az {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: var(--modal-az-padding);
+}
+
+.modal-az.modal-az-open {
+  display: flex;
+}
+
+/* Backdrop */
+.modal-az .modal-az-backdrop {
+  position: absolute;
+  inset: 0;
+  background: var(--modal-az-backdrop);
+}
+
+/* Dialog */
+.modal-az .modal-az-dialog {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--modal-az-gap);
+  max-width: var(--modal-az-max-width);
+  width: 100%;
+  padding: var(--modal-az-padding);
+  border-radius: var(--modal-az-border-radius);
+  border: var(--modal-az-border);
+  background: var(--modal-az-background);
+  box-shadow: var(--modal-az-shadow);
+  z-index: 1;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+/* Close button */
+.modal-az .modal-az-close {
+  position: absolute;
+  top: var(--modal-az-padding);
+  right: var(--modal-az-padding);
+  width: var(--modal-az-close-size);
+  height: var(--modal-az-close-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  border-radius: var(--modal-az-close-border-radius);
+  color: var(--modal-az-close-color);
+  cursor: pointer;
+  padding: 0;
+  flex-shrink: 0;
+  z-index: 2;
+}
+
+.modal-az .modal-az-close svg {
+  width: 24px;
+  height: 24px;
+}
+
+.modal-az .modal-az-close:hover {
+  background: rgb(0 0 0 / 5%);
+}
+
+/* Content wrapper */
+.modal-az .modal-az-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--modal-az-content-gap);
+}
+
+/* Text section */
+.modal-az .modal-az-text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--modal-az-content-gap);
+  padding-right: calc(var(--modal-az-close-size) + 8px);
+}
+
+.modal-az .modal-az-text h1,
+.modal-az .modal-az-text h2,
+.modal-az .modal-az-text h3,
+.modal-az .modal-az-text h4 {
+  font-family: var(--modal-az-heading-font-family);
+  font-size: var(--modal-az-heading-font-size);
+  font-weight: var(--modal-az-heading-font-weight);
+  line-height: var(--modal-az-heading-line-height);
+  color: var(--modal-az-heading-color);
+  margin: 0;
+}
+
+.modal-az .modal-az-text p {
+  font-family: var(--modal-az-body-font-family);
+  font-size: var(--modal-az-body-font-size);
+  font-weight: var(--modal-az-body-font-weight);
+  line-height: var(--modal-az-body-line-height);
+  color: var(--modal-az-body-color);
+  margin: 0;
+}
+
+/* Image section */
+.modal-az .modal-az-image {
+  overflow: hidden;
+  border-radius: var(--modal-az-image-border-radius);
+}
+
+.modal-az .modal-az-image picture {
+  display: block;
+  width: 100%;
+  height: var(--modal-az-slot-image-height);
+}
+
+.modal-az .modal-az-image picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Actions/buttons section */
+.modal-az .modal-az-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--modal-az-btn-gap);
+  padding-top: 8px;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.modal-az .modal-az-actions p {
+  margin: 0;
+}
+
+.modal-az .modal-az-actions a.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--modal-az-btn-font-family);
+  font-size: var(--modal-az-btn-font-size);
+  font-weight: var(--modal-az-btn-font-weight);
+  line-height: var(--modal-az-btn-line-height);
+  height: var(--modal-az-btn-height);
+  padding: var(--modal-az-btn-padding);
+  border-radius: var(--modal-az-btn-border-radius);
+  text-decoration: none;
+  cursor: pointer;
+  background: var(--modal-az-btn-primary-bg);
+  border: var(--modal-az-btn-primary-border);
+  color: var(--modal-az-btn-primary-color);
+}
+
+.modal-az .modal-az-actions a.button.secondary {
+  background: var(--modal-az-btn-secondary-bg);
+  border: var(--modal-az-btn-secondary-border);
+  color: var(--modal-az-btn-secondary-color);
+}
+
+.modal-az .modal-az-actions a:not(.button) {
+  font-family: var(--modal-az-btn-font-family);
+  font-size: var(--modal-az-btn-font-size);
+  font-weight: var(--modal-az-btn-font-weight);
+  line-height: var(--modal-az-btn-line-height);
+  color: var(--modal-az-btn-tertiary-color);
+  text-decoration: underline;
+}
+
+/* ========== VARIANT: text-only (centered) ========== */
+.modal-az.text-only .modal-az-content {
+  align-items: center;
+  text-align: center;
+}
+
+.modal-az.text-only .modal-az-text {
+  align-items: center;
+  padding-right: 0;
+  padding-top: 8px;
+}
+
+.modal-az.text-only .modal-az-actions {
+  justify-content: center;
+}
+
+/* ========== VARIANT: image (side-by-side) ========== */
+.modal-az.image .modal-az-content {
+  flex-direction: row;
+  gap: var(--modal-az-gap);
+}
+
+.modal-az.image .modal-az-image {
+  flex: 0 0 var(--modal-az-image-width);
+  height: var(--modal-az-image-height);
+}
+
+.modal-az.image .modal-az-image picture {
+  height: 100%;
+}
+
+.modal-az.image .modal-az-text {
+  flex: 1;
+  justify-content: flex-start;
+}
+
+.modal-az.image .modal-az-actions {
+  margin-top: auto;
+  justify-content: flex-end;
+}
+
+/* ========== VARIANT: slot (content with image slot) ========== */
+.modal-az.slot .modal-az-actions {
+  justify-content: flex-start;
+}
+
+/* ========== RESPONSIVE: Mobile / Narrow ========== */
+@media (width <= 599px) {
+  .modal-az .modal-az-dialog {
+    max-width: 380px;
+  }
+
+  /* Text-only: stack buttons vertically */
+  .modal-az.text-only .modal-az-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .modal-az.text-only .modal-az-actions a.button {
+    width: 100%;
+  }
+
+  /* Image variant: stack vertically */
+  .modal-az.image .modal-az-content {
+    flex-direction: column;
+  }
+
+  .modal-az.image .modal-az-image {
+    flex: none;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  .modal-az.image .modal-az-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .modal-az.image .modal-az-actions a.button {
+    width: 100%;
+  }
+
+  /* Slot variant: stack buttons vertically */
+  .modal-az.slot .modal-az-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .modal-az.slot .modal-az-actions a.button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,157 @@
+@import url('./search-az-tokens.css');
+
+.search-az {
+  position: relative;
+  width: 100%;
+  max-width: 928px;
+}
+
+/* Search input wrapper */
+.search-az .search-az-box {
+  display: flex;
+  align-items: center;
+  gap: var(--search-az-input-gap);
+  height: var(--search-az-input-height);
+  padding: var(--search-az-input-padding);
+  border-radius: var(--search-az-input-border-radius);
+  border: var(--search-az-input-border);
+  background: var(--search-az-input-background);
+  transition: border-color var(--search-az-transition);
+}
+
+.search-az.search-az-expanded .search-az-box {
+  border-radius: var(--search-az-dropdown-border-radius) var(--search-az-dropdown-border-radius) 0 0;
+  border: var(--search-az-dropdown-border);
+  border-bottom: var(--search-az-item-border);
+}
+
+/* Search icon */
+.search-az .search-az-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: var(--search-az-icon-size);
+  height: var(--search-az-icon-size);
+  color: var(--search-az-icon-color);
+}
+
+.search-az .search-az-icon svg {
+  width: 100%;
+  height: 100%;
+  stroke: currentcolor;
+  fill: none;
+}
+
+/* Input */
+.search-az .search-az-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: var(--search-az-input-font-family);
+  font-size: var(--search-az-input-font-size);
+  line-height: var(--search-az-input-line-height);
+  color: var(--search-az-input-color);
+  padding: 0;
+  height: 100%;
+}
+
+.search-az .search-az-input::placeholder {
+  color: var(--search-az-input-placeholder-color);
+}
+
+/* Clear button */
+.search-az .search-az-clear {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: var(--search-az-icon-size);
+  height: var(--search-az-icon-size);
+  color: var(--search-az-close-color);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--search-az-transition);
+}
+
+.search-az .search-az-clear.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.search-az .search-az-clear svg {
+  width: 100%;
+  height: 100%;
+  stroke: currentcolor;
+  fill: none;
+}
+
+/* Dropdown */
+.search-az .search-az-dropdown {
+  display: none;
+  flex-direction: column;
+  border: var(--search-az-dropdown-border);
+  border-top: none;
+  border-radius: 0 0 var(--search-az-dropdown-border-radius) var(--search-az-dropdown-border-radius);
+  background: var(--search-az-dropdown-background);
+  box-shadow: var(--search-az-dropdown-shadow);
+  overflow: hidden;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.search-az.search-az-expanded .search-az-dropdown {
+  display: flex;
+}
+
+/* Suggestion items */
+.search-az .search-az-dropdown li {
+  display: flex;
+  align-items: center;
+  min-height: var(--search-az-item-height);
+  padding: var(--search-az-item-padding);
+  border-top: var(--search-az-item-border);
+  font-family: var(--search-az-item-font-family);
+  font-size: var(--search-az-item-font-size);
+  line-height: var(--search-az-item-line-height);
+  color: var(--search-az-item-color);
+  cursor: pointer;
+  transition: background-color var(--search-az-transition);
+}
+
+.search-az .search-az-dropdown li:hover {
+  background-color: var(--search-az-item-hover-bg);
+}
+
+/* Show more button row */
+.search-az .search-az-dropdown li.search-az-more {
+  padding: 10px 16px;
+}
+
+.search-az .search-az-dropdown li.search-az-more button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--search-az-more-height);
+  padding: var(--search-az-more-padding);
+  border-radius: var(--search-az-more-border-radius);
+  border: var(--search-az-more-border);
+  background: var(--search-az-more-background);
+  font-family: var(--search-az-more-font-family);
+  font-size: var(--search-az-more-font-size);
+  font-weight: var(--search-az-more-font-weight);
+  line-height: var(--search-az-more-line-height);
+  color: var(--search-az-more-color);
+  cursor: pointer;
+  transition: background-color var(--search-az-transition);
+}
+
+.search-az .search-az-dropdown li.search-az-more button:hover {
+  background: rgb(208 0 111 / 5%);
+}

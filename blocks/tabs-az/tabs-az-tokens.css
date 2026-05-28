@@ -1,0 +1,37 @@
+.tabs-az {
+  /* ===== LAYOUT ===== */
+  --tabs-az-max-width: 1180px;
+  --tabs-az-gap: 2px;
+  --tabs-az-bar-height: 2px;
+  --tabs-az-bar-color: #d0006f;
+
+  /* ===== TAB ITEM ===== */
+  --tabs-az-tab-height: 50px;
+  --tabs-az-tab-padding: 0 16px;
+  --tabs-az-tab-gap: 8px;
+
+  /* ===== ACTIVE TAB ===== */
+  --tabs-az-active-bg: #d0006f;
+  --tabs-az-active-color: #fff;
+  --tabs-az-active-font-weight: 700;
+
+  /* ===== INACTIVE TAB ===== */
+  --tabs-az-inactive-bg: #ebefee;
+  --tabs-az-inactive-color: #3c4242;
+  --tabs-az-inactive-font-weight: 400;
+
+  /* ===== TYPOGRAPHY ===== */
+  --tabs-az-font-family: 'Inter', sans-serif;
+  --tabs-az-font-size: 14px;
+  --tabs-az-line-height: 16px;
+
+  /* ===== TAB PANEL ===== */
+  --tabs-az-panel-padding: 24px 0;
+
+  /* ===== DROPDOWN (compact) ===== */
+  --tabs-az-dropdown-icon-size: 20px;
+  --tabs-az-dropdown-icon-color: #3c4242;
+
+  /* ===== TRANSITIONS ===== */
+  --tabs-az-transition: 0.2s ease;
+}
