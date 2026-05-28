@@ -1,0 +1,22 @@
+.cookie-az {
+  --cookie-az-bg: #3c4242;
+  --cookie-az-color: #fff;
+  --cookie-az-padding: 24px 40px;
+  --cookie-az-gap: 24px;
+  --cookie-az-font-family: 'Inter', sans-serif;
+  --cookie-az-font-size: 14px;
+  --cookie-az-line-height: 20px;
+  --cookie-az-link-color: #d0006f;
+  --cookie-az-btn-accept-bg: #d0006f;
+  --cookie-az-btn-accept-color: #fff;
+  --cookie-az-btn-accept-border: 1px solid #d0006f;
+  --cookie-az-btn-reject-bg: transparent;
+  --cookie-az-btn-reject-color: #fff;
+  --cookie-az-btn-reject-border: 1px solid #fff;
+  --cookie-az-btn-font-size: 14px;
+  --cookie-az-btn-font-weight: 700;
+  --cookie-az-btn-padding: 10px 20px;
+  --cookie-az-btn-border-radius: 4px;
+  --cookie-az-btn-gap: 12px;
+  --cookie-az-max-width: 1180px;
+}

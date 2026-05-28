@@ -1,0 +1,13 @@
+.breadcrumb-az {
+  --breadcrumb-az-max-width: 1180px;
+  --breadcrumb-az-padding: 16px 0;
+  --breadcrumb-az-font-family: 'Inter', sans-serif;
+  --breadcrumb-az-font-size: 14px;
+  --breadcrumb-az-line-height: 20px;
+  --breadcrumb-az-link-color: #d0006f;
+  --breadcrumb-az-link-hover-color: #830051;
+  --breadcrumb-az-current-color: #3c4242;
+  --breadcrumb-az-separator-color: #b2b4b4;
+  --breadcrumb-az-separator-size: 12px;
+  --breadcrumb-az-gap: 8px;
+}
