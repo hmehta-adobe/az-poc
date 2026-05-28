@@ -1,0 +1,22 @@
+{
+  "variantName": "cookie-az",
+  "blockType": "cookie-consent",
+  "source": "figma",
+  "figmaFileKey": "GcRd4HGw2IXFBB02O7McBy",
+  "characteristics": {
+    "colorScheme": "dark",
+    "density": "compact",
+    "purpose": "consent",
+    "imagePattern": "noimg",
+    "contentPattern": {
+      "structure": "message-accept-reject",
+      "buttonCount": 2,
+      "imageCount": 0
+    }
+  },
+  "usage": {
+    "pagesUsing": ["final-blocks-demo"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-28T07:00:00.000Z"
+  }
+}

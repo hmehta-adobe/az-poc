@@ -1,0 +1,22 @@
+{
+  "variantName": "breadcrumb-az",
+  "blockType": "breadcrumb",
+  "source": "figma",
+  "figmaFileKey": "GcRd4HGw2IXFBB02O7McBy",
+  "characteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "navigation",
+    "imagePattern": "noimg",
+    "contentPattern": {
+      "structure": "link-chain-with-separators",
+      "buttonCount": 0,
+      "imageCount": 0
+    }
+  },
+  "usage": {
+    "pagesUsing": ["final-blocks-demo", "asthma"],
+    "reuseCount": 2,
+    "lastUsed": "2026-05-28T07:00:00.000Z"
+  }
+}

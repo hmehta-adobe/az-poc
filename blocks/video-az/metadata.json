@@ -1,0 +1,22 @@
+{
+  "variantName": "video-az",
+  "blockType": "video",
+  "source": "figma",
+  "figmaFileKey": "GcRd4HGw2IXFBB02O7McBy",
+  "characteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "media-embed",
+    "imagePattern": "large",
+    "contentPattern": {
+      "structure": "poster-play-embed-caption",
+      "buttonCount": 1,
+      "imageCount": 1
+    }
+  },
+  "usage": {
+    "pagesUsing": ["final-blocks-demo"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-28T07:00:00.000Z"
+  }
+}
