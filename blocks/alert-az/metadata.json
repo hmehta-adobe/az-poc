@@ -1,0 +1,23 @@
+{
+  "variantName": "alert-az",
+  "blockType": "alert",
+  "source": "figma",
+  "figmaFileKey": "GcRd4HGw2IXFBB02O7McBy",
+  "characteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "notification",
+    "imagePattern": "noimg",
+    "contentPattern": {
+      "structure": "icon-message-dismiss",
+      "buttonCount": 1,
+      "imageCount": 0
+    }
+  },
+  "variants": ["info", "success", "warning", "error"],
+  "usage": {
+    "pagesUsing": ["final-blocks-demo"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-28T07:00:00.000Z"
+  }
+}
