@@ -1,0 +1,93 @@
+{
+  "name": "AZ Health Club HK Portal Consolidation",
+  "market": "Hong Kong",
+  "targetExperience": {
+    "name": "AZ Health Club HK Portal",
+    "description": "Consolidate multiple AstraZeneca Hong Kong patient/product sites (azhealthclub-info.com.hk, crestor.com.hk, www.forxiga.com.hk, www.symbicort.com.hk) and the existing azhealthclub.com.hk into a single portal under azhealthclub.com.hk. The target organizes content into an /info section (patient program portal), per-brand sections (/crestor, /forxiga, /symbicort), and existing therapeutic-area / disease-awareness / patient-assistance content already on azhealthclub.com.hk.",
+    "targetRootPath": "/",
+    "locales": ["tc", "sc"],
+    "providedSitemap": "User supplied an explicit Proposed Sitemap mapping (HK_sitemap.md) listing target azhealthclub.com.hk URLs paired 1:1 with their equivalent current source URLs across five source sites. The provided sitemap is the authoritative source for Step 2 and Step 3."
+  },
+  "targetBriefStatus": "provided",
+  "sourceSites": [
+    {
+      "name": "azhealthclub-info",
+      "rootUrl": "https://azhealthclub-info.com.hk/",
+      "role": "Patient program / patient services portal — patient assistance programs (PAP), partner organisations, saving scheme, instant / HASFI participation flows.",
+      "seedUrls": [
+        "https://azhealthclub-info.com.hk/",
+        "https://azhealthclub-info.com.hk/home",
+        "https://azhealthclub-info.com.hk/about-us",
+        "https://azhealthclub-info.com.hk/Patient-Program",
+        "https://azhealthclub-info.com.hk/Patient-Program/Stores",
+        "https://azhealthclub-info.com.hk/Patient-Program/Organizations",
+        "https://azhealthclub-info.com.hk/how-to-participate",
+        "https://azhealthclub-info.com.hk/list",
+        "https://azhealthclub-info.com.hk/PAP/LCPAP"
+      ]
+    },
+    {
+      "name": "crestor",
+      "rootUrl": "https://crestor.com.hk/",
+      "role": "Crestor brand patient/disease-awareness site (cholesterol management content).",
+      "seedUrls": [
+        "https://crestor.com.hk/",
+        "https://crestor.com.hk/index.html",
+        "https://crestor.com.hk/prescribe/index.html",
+        "https://crestor.com.hk/tips/index.html",
+        "https://crestor.com.hk/understanding/index.html"
+      ]
+    },
+    {
+      "name": "forxiga",
+      "rootUrl": "https://www.forxiga.com.hk/",
+      "role": "Forxiga brand patient site with Traditional Chinese (/tc) and Simplified Chinese (/sc) locales — dosing, patient registration, product authentication, heart failure & CKD information.",
+      "seedUrls": [
+        "https://www.forxiga.com.hk/tc/index.html",
+        "https://www.forxiga.com.hk/sc/index.html",
+        "https://www.forxiga.com.hk/tc/about.html",
+        "https://www.forxiga.com.hk/tc/heart.html",
+        "https://www.forxiga.com.hk/tc/kidney.html",
+        "https://www.forxiga.com.hk/tc/xigduo.html"
+      ]
+    },
+    {
+      "name": "symbicort",
+      "rootUrl": "https://www.symbicort.com.hk/",
+      "role": "Symbicort brand patient site (single landing page in the provided mapping).",
+      "seedUrls": [
+        "https://www.symbicort.com.hk/"
+      ]
+    },
+    {
+      "name": "azhealthclub-current",
+      "rootUrl": "https://azhealthclub.com.hk/",
+      "role": "Existing AZ Health Club HK site — therapeutic areas (cardiovascular, respiratory, gastrointestinal, diabetes, CKD, hyperkalemia, respiratory virus), disease-area pages, PAP indexes, drug-assistance pages, medical articles, terms and policies. Will be restructured under the same domain.",
+      "seedUrls": [
+        "https://azhealthclub.com.hk/",
+        "https://azhealthclub.com.hk/pap/",
+        "https://azhealthclub.com.hk/therapeutic-area/",
+        "https://azhealthclub.com.hk/cardiovascualr/",
+        "https://azhealthclub.com.hk/respiratory/",
+        "https://azhealthclub.com.hk/gastrointestinal/",
+        "https://azhealthclub.com.hk/diabetes/",
+        "https://azhealthclub.com.hk/ckd/",
+        "https://azhealthclub.com.hk/hyperk/",
+        "https://azhealthclub.com.hk/respiratory-virus/",
+        "https://azhealthclub.com.hk/health-information/",
+        "https://azhealthclub.com.hk/medical-article/"
+      ]
+    }
+  ],
+  "constraints": [
+    "Source URLs and proposed target paths are fixed by the user-supplied HK_sitemap.md.",
+    "Some source URLs appear twice in the mapping (canonicalisation aliases) — these map to the same target path and should be deduplicated to a single mapping per source URL.",
+    "Forxiga is bilingual (/tc and /sc) — both locales must be preserved on the target.",
+    "Other source sites are monolingual Traditional Chinese; the target portal must keep TC as the primary locale."
+  ],
+  "successCriteria": [
+    "Every source URL in HK_sitemap.md has exactly one target path on azhealthclub.com.hk.",
+    "Forxiga TC and SC pages remain locale-pair siblings under /forxiga/tc and /forxiga/sc.",
+    "Target sitemap reflects the user's proposed path structure (/info, /crestor, /forxiga/tc, /forxiga/sc, /symbicort, plus existing top-level paths)."
+  ]
+}

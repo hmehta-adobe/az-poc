@@ -1,0 +1,12 @@
+[
+  { "primary": "https://www.forxiga.com.hk/tc/index.html", "alternate": "https://www.forxiga.com.hk/sc/index.html", "alternateLocale": "sc", "status": "detected" },
+  { "primary": "https://www.forxiga.com.hk/tc/about.html", "alternate": "https://www.forxiga.com.hk/sc/about.html", "alternateLocale": "sc", "status": "detected" },
+  { "primary": "https://www.forxiga.com.hk/tc/dosing_method.html", "alternate": "https://www.forxiga.com.hk/sc/dosing_method.html", "alternateLocale": "sc", "status": "detected" },
+  { "primary": "https://www.forxiga.com.hk/tc/form.html", "alternate": "https://www.forxiga.com.hk/sc/form.html", "alternateLocale": "sc", "status": "detected" },
+  { "primary": "https://www.forxiga.com.hk/tc/form2.html", "alternate": "https://www.forxiga.com.hk/sc/form2.html", "alternateLocale": "sc", "status": "detected" },
+  { "primary": "https://www.forxiga.com.hk/tc/genuine.html", "alternate": "https://www.forxiga.com.hk/sc/genuine.html", "alternateLocale": "sc", "status": "detected" },
+  { "primary": "https://www.forxiga.com.hk/tc/heart.html", "alternate": "https://www.forxiga.com.hk/sc/heart.html", "alternateLocale": "sc", "status": "detected" },
+  { "primary": "https://www.forxiga.com.hk/tc/kidney.html", "alternate": "https://www.forxiga.com.hk/sc/kidney.html", "alternateLocale": "sc", "status": "detected" },
+  { "primary": "https://www.forxiga.com.hk/tc/terms.html", "alternate": "https://www.forxiga.com.hk/sc/terms.html", "alternateLocale": "sc", "status": "detected" },
+  { "primary": "https://www.forxiga.com.hk/tc/xigduo.html", "alternate": "https://www.forxiga.com.hk/sc/xigduo.html", "alternateLocale": "sc", "status": "detected" }
+]
