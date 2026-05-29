@@ -85,6 +85,11 @@
   height: var(--hero-az-fullimage-height-sm);
 }
 
+/* No overlay variant */
+.hero-az-fullimage.no-overlay .hero-overlay {
+  display: none;
+}
+
 @media (width >= 600px) {
   .hero-az-fullimage .hero-content h1,
   .hero-az-fullimage .hero-content h2,
