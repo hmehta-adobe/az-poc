@@ -52,13 +52,16 @@ export function moveInstrumentation(from, to) {
  * @param {Element} main The container element
  */
 function buildHeroBlock(main) {
+  // Skip auto-hero if the page already has a hero-family block
+  // (e.g. hero-az-fullimage) — otherwise its picture/h1 get moved out
+  // into a synthetic hero block, leaving the authored block empty.
+  if (main.querySelector('.hero, [class^="hero-"]')) {
+    return;
+  }
   const h1 = main.querySelector('h1');
   const picture = main.querySelector('picture');
   // eslint-disable-next-line no-bitwise
   if (h1 && picture && (h1.compareDocumentPosition(picture) & Node.DOCUMENT_POSITION_PRECEDING)) {
-    if (h1.closest('.hero') || picture.closest('.hero')) {
-      return;
-    }
     const section = document.createElement('div');
     section.append(buildBlock('hero', { elems: [picture, h1] }));
     main.prepend(section);
@@ -100,7 +103,7 @@ function buildAutoBlocks(main) {
       });
     }
 
-    // buildHeroBlock(main);
+    buildHeroBlock(main);
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);
