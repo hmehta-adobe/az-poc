@@ -1,6 +1,28 @@
 {
-  "name": "Hero AZ Full Image",
-  "description": "Full-bleed hero with background image, dark overlay, and white text content with CTA button. Heading scales down on mobile.",
-  "group": "hero",
-  "status": "active"
+  "variantName": "hero-az-fullimage",
+  "blockType": "hero",
+  "source": "figma",
+  "figmaNodeId": "12428:14029",
+  "figmaFileKey": "GcRd4HGw2IXFBB02O7McBy",
+  "description": "Full-bleed hero with background image, optional dark overlay, and white text content with CTA button. Heading scales down on mobile.",
+  "characteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "hero",
+    "imagePattern": "large",
+    "contentPattern": {
+      "structure": "background-image-overlay-heading-body-cta",
+      "buttonCount": 1,
+      "imageCount": 1
+    }
+  },
+  "variants": {
+    "height": ["default (480px)", "medium (390px)", "small (270px)"],
+    "overlay": ["default (75% dark)", "no-overlay (transparent)"]
+  },
+  "usage": {
+    "pagesUsing": ["blocks-batch1", "asthma"],
+    "reuseCount": 2,
+    "lastUsed": "2026-05-28T09:00:00.000Z"
+  }
 }
